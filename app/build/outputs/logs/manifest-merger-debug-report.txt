@@ -1,0 +1,138 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:2:1-39:12
+MERGED from [com.android.support:support-v13:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\e42c0a5e21561a1f63e4c07f597d1275\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c85de78adab2eac6bc3472bb7093b31d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\68f37ccced5d522ebcf507edc8b55299\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5c642c3df8e3a6c6cb64be5da3bcacc2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\491d44ba0ea82e45b3a5f02db2f863f1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f4b04cc97001fedb6d3d9556e5a5c8d4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4117f672b770c2da92ad83e10a247c1c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a7497cfcc1c29aae6576581788d87b00\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\75cca66ec22b7f29feea964113b19db2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\a2a1bd9a6b8f13a26967878ad7a46170\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5b756f445674c6a280bcca03a515cffb\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v13:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\e42c0a5e21561a1f63e4c07f597d1275\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\e42c0a5e21561a1f63e4c07f597d1275\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c85de78adab2eac6bc3472bb7093b31d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c85de78adab2eac6bc3472bb7093b31d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\68f37ccced5d522ebcf507edc8b55299\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\68f37ccced5d522ebcf507edc8b55299\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5c642c3df8e3a6c6cb64be5da3bcacc2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5c642c3df8e3a6c6cb64be5da3bcacc2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\491d44ba0ea82e45b3a5f02db2f863f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\491d44ba0ea82e45b3a5f02db2f863f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f4b04cc97001fedb6d3d9556e5a5c8d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f4b04cc97001fedb6d3d9556e5a5c8d4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4117f672b770c2da92ad83e10a247c1c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4117f672b770c2da92ad83e10a247c1c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a7497cfcc1c29aae6576581788d87b00\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a7497cfcc1c29aae6576581788d87b00\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\75cca66ec22b7f29feea964113b19db2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\75cca66ec22b7f29feea964113b19db2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\a2a1bd9a6b8f13a26967878ad7a46170\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\a2a1bd9a6b8f13a26967878ad7a46170\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5b756f445674c6a280bcca03a515cffb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5b756f445674c6a280bcca03a515cffb\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:11:5-95
+	android:name
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:12:5-83
+	android:name
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:13:5-92
+	android:name
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:14:5-92
+	android:name
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:14:22-73
+application
+ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:16:5-37:19
+	android:label
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:20:9-41
+	android:icon
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:19:9-38
+	android:allowBackup
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:21:9-40
+	android:name
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:17:9-51
+activity#com.example.ele_me.activity.WelcomeActivity
+ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:label
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:24:13-45
+	android:name
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:23:13-71
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:28:27-74
+activity#com.example.ele_me.activity.HomePageActivity
+ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:31:9-90
+	android:name
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:31:19-78
+activity#com.example.ele_me.activity.RestaurantDetailActivity
+ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:32:9-98
+	android:name
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:32:19-86
+activity#com.example.ele_me.activity.DianPingWebActivity
+ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:33:9-93
+	android:name
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:33:19-81
+activity#com.example.ele_me.activity.LoginActivity
+ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:34:9-87
+	android:name
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:34:19-75
+activity#com.example.ele_me.activity.CameraActivity
+ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:35:9-88
+	android:name
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:35:19-76
+activity#com.example.ele_me.activity.GalleryActivity
+ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:36:9-89
+	android:name
+		ADDED from C:\Users\H0136899\Downloads\ele_me2\app\src\main\AndroidManifest.xml:36:19-77

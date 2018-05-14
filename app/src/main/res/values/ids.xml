@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="home" type="id" />
+    <item name="action_bar_activity_content" type="id" />
+    <item name="action_menu_divider" type="id" />
+    <item name="action_menu_presenter" type="id" />
+    <item name="progress_circular" type="id" />
+    <item name="progress_horizontal" type="id" />
+    <item name="history_address_arrow" type="id" />
+    <item name="address_loading" type="id" />
+    <item name="address_search_content" type="id" />
+    <item name="address_bubble" type="id" />
+    <item name="address_suggestion_name" type="id" />
+    <item name="address_suggestion_address" type="id" />
+    <item name="address_suggestion_list" type="id" />
+    <item name="btn_login" type="id" />
+    <item name="btn_regist" type="id" />
+    <item name="ll_login_panel" type="id" />
+    <item name="btn_close_login_panel" type="id" />
+    <item name="ll_login_panel_edit" type="id" />
+    <item name="btn_start_login" type="id" />
+    <item name="et_login_username" type="id" />
+    <item name="et_login_password" type="id" />
+    <item name="v_translucence_background" type="id" />
+    <item name="welcome_container" type="id" />
+    <item name="btn_start_regist" type="id" />
+    <item name="btn_login_operate" type="id" />
+    <item name="ll_regist_panel_edit" type="id" />
+    <item name="et_regist_username" type="id" />
+    <item name="et_regist_password" type="id" />
+    <item name="et_regist_password_confirm" type="id" />
+    <item name="et_regist_email" type="id" />
+    <item name="btn_regist_operate" type="id" />
+    <item name="btn_close_regist_panel" type="id" />
+    <item name="home_iv_avatar" type="id" />
+    <item name="home_tv_user_name" type="id" />
+    <item name="home_tv_user_point" type="id" />
+    <item name="home_fl_avatar" type="id" />
+    <item name="welcome_text" type="id" />
+    <item name="home_ll_setting" type="id" />
+    <item name="home_ll_history_center" type="id" />
+    <item name="home_ll_book_meal" type="id" />
+    <item name="home_ll_order_meal" type="id" />
+    <item name="home_pb_loading_point" type="id" />
+    <item name="home_iv_history_arrow" type="id" />
+    <item name="home_iv_history_center_icon" type="id" />
+    <item name="home_iv_book_meal_arrow" type="id" />
+    <item name="home_iv_book_meal_icon" type="id" />
+    <item name="home_iv_order_meal_arrow" type="id" />
+    <item name="home_iv_order_meal_icon" type="id" />
+    <item name="iv_welcome_text_shade" type="id" />
+    <item name="home_tv_order_meal" type="id" />
+    <item name="home_tv_send_immediately" type="id" />
+    <item name="home_tv_book_meal" type="id" />
+    <item name="home_tv_history_center" type="id" />
+    <item name="iv_regist_username" type="id" />
+    <item name="iv_regist_email" type="id" />
+    <item name="iv_regist_password_confirm" type="id" />
+    <item name="iv_regist_password" type="id" />
+    <item name="pb_regist_username_check_loading" type="id" />
+    <item name="navigation_btn_goback" type="id" />
+    <item name="navigation_btn_right" type="id" />
+    <item name="navigation_bar" type="id" />
+    <item name="notification_icon" type="id" />
+    <item name="notification_mesg" type="id" />
+    <item name="notification_num" type="id" />
+    <item name="navigation_title" type="id" />
+    <item name="about_feedback_btn" type="id" />
+    <item name="about_rating_btn" type="id" />
+    <item name="feedback_et" type="id" />
+    <item name="feedback_loading" type="id" />
+    <item name="restaurant_list_item_limit" type="id" />
+    <item name="restaurant_list_item_rating" type="id" />
+    <item name="restaurant_list_item_send_speed" type="id" />
+    <item name="restaurant_list_item_name" type="id" />
+    <item name="restaurant_list_item_arrow" type="id" />
+    <item name="restaurant_list_item_icon" type="id" />
+    <item name="search_icon" type="id" />
+    <item name="search_content" type="id" />
+    <item name="search_voice_icon" type="id" />
+    <item name="search_cancel" type="id" />
+    <item name="search_item_name" type="id" />
+    <item name="search_item_address" type="id" />
+    <item name="restaurant_search_list" type="id" />
+    <item name="food_total_prices" type="id" />
+    <item name="food_car" type="id" />
+    <item name="food_search_list" type="id" />
+    <item name="food_list" type="id" />
+    <item name="food_list_item_name" type="id" />
+    <item name="food_list_item_rating" type="id" />
+    <item name="food_list_item_price" type="id" />
+    <item name="food_list_item_sales" type="id" />
+    <item name="food_flying_price" type="id" />
+    <item name="food_count" type="id" />
+    <item name="login_loading" type="id" />
+    <item name="food_fading_price" type="id" />
+    <item name="navigation_bar_right_button_wrapper" type="id" />
+    <item name="navigation_bar_left_button_wrapper" type="id" />
+    <item name="food_list_arrow" type="id" />
+    <item name="food_indicator" type="id" />
+    <item name="food_rating" type="id" />
+    <item name="food_arrow" type="id" />
+    <item name="food_image" type="id" />
+    <item name="food_add_to_cart" type="id" />
+    <item name="food_name" type="id" />
+    <item name="food_intro" type="id" />
+    <item name="loading" type="id" />
+    <item name="food_infor" type="id" />
+    <item name="food_score" type="id" />
+    <item name="image_loading" type="id" />
+    <item name="content_container" type="id" />
+    <item name="food_image_animation" type="id" />
+    <item name="food_cart_note" type="id" />
+    <item name="food_cart_top" type="id" />
+    <item name="food_cart_bottom" type="id" />
+    <item name="food_amount" type="id" />
+    <item name="food_cost" type="id" />
+    <item name="food_cart_list" type="id" />
+    <item name="food_divider" type="id" />
+    <item name="food_cart_order" type="id" />
+    <item name="food_price" type="id" />
+    <item name="food_cart_note_content" type="id" />
+    <item name="food_cart_operate" type="id" />
+    <item name="half_transparent_mask" type="id" />
+    <item name="restaurant_infor_score" type="id" />
+    <item name="restaurant_infor_rating" type="id" />
+    <item name="restaurant_infor_notice" type="id" />
+    <item name="view_restaurant_comment" type="id" />
+    <item name="restaurant_location" type="id" />
+    <item name="restaurant_phone" type="id" />
+    <item name="restaurant_infor_name" type="id" />
+    <item name="restaurant_infor_detail" type="id" />
+    <item name="restaurant_infor_icon" type="id" />
+    <item name="resturant_infor_flavor" type="id" />
+    <item name="navigation_bar_title_wrapper" type="id" />
+    <item name="food_operation_bar" type="id" />
+    <item name="operation_bar_add" type="id" />
+    <item name="operation_bar_num" type="id" />
+    <item name="operation_bar_minus" type="id" />
+    <item name="operation_bar_delete" type="id" />
+    <item name="operation_bar_favor" type="id" />
+    <item name="order_address" type="id" />
+    <item name="order_phone_bk" type="id" />
+    <item name="order_phone" type="id" />
+    <item name="order_address_item" type="id" />
+    <item name="order_history_address" type="id" />
+    <item name="make_order" type="id" />
+    <item name="order_history_address_list" type="id" />
+    <item name="order_infor" type="id" />
+    <item name="food_cart_item" type="id" />
+    <item name="flavor_filter_wheel1" type="id" />
+    <item name="flavor_filter_wheel2" type="id" />
+    <item name="flavor_filter_cancel" type="id" />
+    <item name="flavor_filter_ok" type="id" />
+    <item name="no_restaurant" type="id" />
+    <item name="shopping_cart" type="id" />
+    <item name="food_classify_list" type="id" />
+    <item name="no_food" type="id" />
+    <item name="time_line_item_image" type="id" />
+    <item name="time_line_item_user" type="id" />
+    <item name="time_line_item_restaurant" type="id" />
+    <item name="account_setting_user_name" type="id" />
+    <item name="account_setting_user_point" type="id" />
+    <item name="account_setting_renren" type="id" />
+    <item name="account_setting_weibo" type="id" />
+    <item name="exit_confirm_ok" type="id" />
+    <item name="exit_confirm_cancel" type="id" />
+    <item name="time_line_list" type="id" />
+    <item name="time_line_confirm" type="id" />
+    <item name="time_line_item_icon" type="id" />
+    <item name="time_line_item_msg" type="id" />
+    <item name="time_line_item_time" type="id" />
+    <item name="commend_time" type="id" />
+    <item name="commend_user_name" type="id" />
+    <item name="commend_list" type="id" />
+    <item name="order_item_restaurant_icon" type="id" />
+    <item name="order_item_restaurant_name" type="id" />
+    <item name="order_item_number" type="id" />
+    <item name="order_item_comments" type="id" />
+    <item name="order_item_stauts" type="id" />
+    <item name="order_item_time" type="id" />
+    <item name="order_item_msg" type="id" />
+    <item name="order_list" type="id" />
+    <item name="order_item_restaurant_icon_wrapper" type="id" />
+    <item name="order_item_status_bg" type="id" />
+    <item name="time_line_content" type="id" />
+    <item name="time_line_content_pager" type="id" />
+    <item name="time_line_content_pager_indicator" type="id" />
+    <item name="time_line_item_msg2" type="id" />
+    <item name="order_detail_status" type="id" />
+    <item name="order_divider1" type="id" />
+    <item name="order_detail_food_name" type="id" />
+    <item name="order_detail_food_price" type="id" />
+    <item name="order_detail_food_count" type="id" />
+    <item name="order_detail_food_total" type="id" />
+    <item name="order_detail_food_amount" type="id" />
+    <item name="order_detail_list" type="id" />
+    <item name="order_detail_note" type="id" />
+    <item name="order_detail_content" type="id" />
+    <item name="remarks_editText" type="id" />
+    <item name="remarks_scrollView" type="id" />
+    <item name="add_remarks" type="id" />
+    <item name="remark_scollView" type="id" />
+    <item name="remark_button_1" type="id" />
+    <item name="remark_button_2" type="id" />
+    <item name="remark_button_3" type="id" />
+    <item name="remark_button_4" type="id" />
+    <item name="remark_button_5" type="id" />
+    <item name="remark_button_6" type="id" />
+    <item name="restaurant_infor_icons" type="id" />
+    <item name="search_content_wrapper" type="id" />
+    <item name="food_size_cancel" type="id" />
+    <item name="food_size_ok" type="id" />
+    <item name="food_size_wheel" type="id" />
+    <item name="order_address_text" type="id" />
+    <item name="order_address_btn" type="id" />
+    <item name="hitory_address" type="id" />
+    <item name="hitory_address_arrow" type="id" />
+    <item name="add_address" type="id" />
+    <item name="current_address" type="id" />
+    <item name="book_time" type="id" />
+    <item name="book_hours" type="id" />
+    <item name="book_minutes" type="id" />
+    <item name="clock_time" type="id" />
+    <item name="clock_time_indicator" type="id" />
+    <item name="book_infor_content" type="id" />
+    <item name="book_next_step" type="id" />
+    <item name="book_clock" type="id" />
+    <item name="sns_setting" type="id" />
+    <item name="restaurant_list_item_favor" type="id" />
+    <item name="address_result" type="id" />
+    <item name="add_address_loading" type="id" />
+    <item name="food_list_item_favor" type="id" />
+    <item name="add_address_btn" type="id" />
+    <item name="add_address_my_location" type="id" />
+    <item name="address_indicator" type="id" />
+    <item name="third_party_renren" type="id" />
+    <item name="third_party_sina" type="id" />
+    <item name="login_registe_button" type="id" />
+    <item name="third_party_login_dialog" type="id" />
+    <item name="food_size_title" type="id" />
+    <item name="third_party_login_title_for_show" type="id" />
+    <item name="third_party_login_title_for_hide" type="id" />
+    <item name="login_dialog" type="id" />
+    <item name="action_sheet_first" type="id" />
+    <item name="action_sheet_second" type="id" />
+    <item name="action_sheet_cancel" type="id" />
+    <item name="upload_avatar_btn_take_picture" type="id" />
+    <item name="home_processing_number" type="id" />
+    <item name="restaurant_list_arrow" type="id" />
+    <item name="address_search_bar" type="id" />
+    <item name="address_map_view" type="id" />
+    <item name="address_map" type="id" />
+    <item name="address_location_loading" type="id" />
+    <item name="activity_content_container" type="id" />
+    <item name="version_discription" type="id" />
+    <item name="version_name" type="id" />
+    <item name="version_size" type="id" />
+    <item name="version_time" type="id" />
+    <item name="remarks" type="id" />
+    <item name="version_guide_pager" type="id" />
+    <item name="version_guide_indicator" type="id" />
+    <item name="gift_list_item_icon" type="id" />
+    <item name="account_setting_notification" type="id" />
+    <item name="notification_setting" type="id" />
+    <item name="gift_detail_description" type="id" />
+    <item name="gift_detail_point" type="id" />
+    <item name="gift_detail_image" type="id" />
+    <item name="gift_detail_exchange" type="id" />
+    <item name="account_setting_gift" type="id" />
+    <item name="form_name" type="id" />
+    <item name="form_address" type="id" />
+    <item name="form_phone" type="id" />
+    <item name="form_note" type="id" />
+    <item name="add_restaurant_favor" type="id" />
+    <item name="food_rating_btn" type="id" />
+    <item name="food_rating_list" type="id" />
+    <item name="food_rating_commed" type="id" />
+    <item name="food_rating_starts" type="id" />
+    <item name="food_rating_upload_photo" type="id" />
+    <item name="food_rating_msg" type="id" />
+    <item name="food_rating_status" type="id" />
+    <item name="bottom_warning_dimiss" type="id" />
+    <item name="bottom_warning_title" type="id" />
+    <item name="copyright" type="id" />
+    <item name="current_zone" type="id" />
+    <item name="restaurant_list_item_coupon" type="id" />
+    <item name="order_coupon" type="id" />
+    <item name="use_coupon_number" type="id" />
+    <item name="use_coupon_submit" type="id" />
+    <item name="order_use_coupon_textview" type="id" />
+    <item name="order_use_coupon_value" type="id" />
+    <item name="order_use_coupon_arrow" type="id" />
+    <item name="restaurant_info_coupon" type="id" />
+    <item name="restaurant_info_no_icon" type="id" />
+    <item name="restaurant_infor_frame" type="id" />
+    <item name="restaurant_info_first_section" type="id" />
+    <item name="use_coupon_delete" type="id" />
+    <item name="remarks_content" type="id" />
+    <item name="food_list_fragment_container" type="id" />
+    <item name="item_price" type="id" />
+    <item name="item_name" type="id" />
+    <item name="item_delete" type="id" />
+    <item name="item_size" type="id" />
+    <item name="use_coupon_edit_text" type="id" />
+    <item name="timeline" type="id" />
+    <item name="timeline_list" type="id" />
+    <item name="time_line_item_bg_line" type="id" />
+    <item name="form_submit" type="id" />
+    <item name="gift_detail_title" type="id" />
+    <item name="cart_food_list_bottom_line" type="id" />
+    <item name="cart_coupon_group" type="id" />
+    <item name="id_offical_phone" type="id" />
+    <item name="pull_refresh_list_view_background_view" type="id" />
+    <item name="main_content_title_fragment_container" type="id" />
+    <item name="cart_food_size_editor_item" type="id" />
+    <item name="cart_food_size_editor_item_name" type="id" />
+    <item name="action_bar_root" type="id">false</item>
+    <item name="action_bar_container" type="id">false</item>
+    <item name="action_bar" type="id">false</item>
+    <item name="action_context_bar" type="id">false</item>
+    <item name="split_action_bar" type="id">false</item>
+    <item name="action_bar_overlay_layout" type="id">false</item>
+    <item name="top_action_bar" type="id">false</item>
+    <item name="up" type="id">false</item>
+    <item name="action_bar_title" type="id">false</item>
+    <item name="action_bar_subtitle" type="id">false</item>
+    <item name="action_mode_close_button" type="id">false</item>
+    <item name="activity_chooser_view_content" type="id">false</item>
+    <item name="expand_activities_button" type="id">false</item>
+    <item name="image" type="id">false</item>
+    <item name="default_activity_button" type="id">false</item>
+    <item name="list_item" type="id">false</item>
+    <item name="icon" type="id">false</item>
+    <item name="title" type="id">false</item>
+    <item name="expanded_menu" type="id">false</item>
+    <item name="checkbox" type="id">false</item>
+    <item name="shortcut" type="id">false</item>
+    <item name="radio" type="id">false</item>
+    <item name="edit_query" type="id">false</item>
+    <item name="search_bar" type="id">false</item>
+    <item name="search_badge" type="id">false</item>
+    <item name="search_button" type="id">false</item>
+    <item name="search_edit_frame" type="id">false</item>
+    <item name="search_mag_icon" type="id">false</item>
+    <item name="search_plate" type="id">false</item>
+    <item name="search_src_text" type="id">false</item>
+    <item name="search_close_btn" type="id">false</item>
+    <item name="submit_area" type="id">false</item>
+    <item name="search_go_btn" type="id">false</item>
+    <item name="search_voice_btn" type="id">false</item>
+    <item name="id_about_us" type="id">false</item>
+    <item name="id_version" type="id">false</item>
+    <item name="check_new_version_icon" type="id">false</item>
+    <item name="id_update" type="id">false</item>
+    <item name="new_version_icon" type="id">false</item>
+    <item name="id_makeProposal" type="id">false</item>
+    <item name="id_shareTofriends" type="id">false</item>
+    <item name="id_welcome" type="id">false</item>
+    <item name="agreement" type="id">false</item>
+    <item name="id_about_firm" type="id">false</item>
+    <item name="fragment_camera_content_fragment" type="id">false</item>
+    <item name="activity_cart_content_view" type="id">false</item>
+    <item name="cart_view" type="id">false</item>
+    <item name="cart_food_list" type="id">false</item>
+    <item name="fragment_confirm_cart" type="id">false</item>
+    <item name="scroll_view" type="id">false</item>
+    <item name="payment_total_amount" type="id">false</item>
+    <item name="fragment_container" type="id">false</item>
+    <item name="content_loading_progressbar" type="id">false</item>
+    <item name="order_id" type="id">false</item>
+    <item name="goto_order_detail" type="id">false</item>
+    <item name="iv_photo" type="id">false</item>
+    <item name="square_ayout" type="id">false</item>
+    <item name="operation_bar" type="id">false</item>
+    <item name="crop_cancel" type="id">false</item>
+    <item name="crop_ok" type="id">false</item>
+    <item name="fragment_deliver_address_provider_container" type="id">false</item>
+    <item name="deliver_address_submit" type="id">false</item>
+    <item name="food_image_container" type="id">false</item>
+    <item name="food_rating_default_image_container" type="id">false</item>
+    <item name="food_rating_detail_image_msg" type="id">false</item>
+    <item name="food_rating_bar" type="id">false</item>
+    <item name="food_rating_text" type="id">false</item>
+    <item name="food_rating_submit" type="id">false</item>
+    <item name="food_rating_image_loading" type="id">false</item>
+    <item name="food_rating_comment" type="id">false</item>
+    <item name="restaurant_logo" type="id">false</item>
+    <item name="restaurant_name" type="id">false</item>
+    <item name="content_loading_layout" type="id">false</item>
+    <item name="fragment_invitation" type="id">false</item>
+    <item name="loading_layout" type="id">false</item>
+    <item name="fragment_deliver_address_provider" type="id">false</item>
+    <item name="login_field" type="id">false</item>
+    <item name="login_by_other_way" type="id">false</item>
+    <item name="login_by_third_party_fragment" type="id">false</item>
+    <item name="mobile_number" type="id">false</item>
+    <item name="send_sms_verification_code" type="id">false</item>
+    <item name="verification_code" type="id">false</item>
+    <item name="submit" type="id">false</item>
+    <item name="send_voice_verification_code" type="id">false</item>
+    <item name="food_title" type="id">false</item>
+    <item name="fill_space_view" type="id">false</item>
+    <item name="camera_view" type="id">false</item>
+    <item name="camera_controller_view" type="id">false</item>
+    <item name="deliver_address_fragment_container" type="id">false</item>
+    <item name="fragment_deliver_time_container" type="id">false</item>
+    <item name="fragment_invoice_container" type="id">false</item>
+    <item name="fragment_remarks_container" type="id">false</item>
+    <item name="payment_type_fragment_container" type="id">false</item>
+    <item name="make_order_fragment" type="id">false</item>
+    <item name="order_item_list_view" type="id">false</item>
+    <item name="goto_exchange_gift" type="id">false</item>
+    <item name="password" type="id">false</item>
+    <item name="auto_location_description" type="id">false</item>
+    <item name="id_editProposal" type="id">false</item>
+    <item name="id_editContactMethod" type="id">false</item>
+    <item name="id_submit_proposal" type="id">false</item>
+    <item name="redenvelopes_content" type="id">false</item>
+    <item name="pull_refresh_layout" type="id">false</item>
+    <item name="redenvelopes_list" type="id">false</item>
+    <item name="invite_code" type="id">false</item>
+    <item name="invite_help" type="id">false</item>
+    <item name="sms_verification_view" type="id">false</item>
+    <item name="id_register_no_net" type="id">false</item>
+    <item name="id_register_invite_help" type="id">false</item>
+    <item name="order_confirmed_but_undeliver" type="id">false</item>
+    <item name="participate_in_activities_but_not_offer" type="id">false</item>
+    <item name="report_other" type="id">false</item>
+    <item name="report_other_message" type="id">false</item>
+    <item name="submit_report" type="id">false</item>
+    <item name="restaurant_filter_fragment" type="id">false</item>
+    <item name="restaurant_content_container" type="id">false</item>
+    <item name="restaurant_list" type="id">false</item>
+    <item name="clear_pic_cache" type="id">false</item>
+    <item name="cached_pic_size" type="id">false</item>
+    <item name="set_pic_quality_without_wifi" type="id">false</item>
+    <item name="pic_quality_without_wifi" type="id">false</item>
+    <item name="auto_location_switch" type="id">false</item>
+    <item name="notification_switch" type="id">false</item>
+    <item name="logout" type="id">false</item>
+    <item name="old_password" type="id">false</item>
+    <item name="new_password" type="id">false</item>
+    <item name="new_password_again" type="id">false</item>
+    <item name="username" type="id">false</item>
+    <item name="use_red_envelopes_fragment" type="id">false</item>
+    <item name="mobile_setting" type="id">false</item>
+    <item name="mobile_setting_message" type="id">false</item>
+    <item name="weixin_setting" type="id">false</item>
+    <item name="weixin_setting_message" type="id">false</item>
+    <item name="weibo_setting" type="id">false</item>
+    <item name="weibo_setting_message" type="id">false</item>
+    <item name="renren_setting" type="id">false</item>
+    <item name="renren_setting_message" type="id">false</item>
+    <item name="email_setting" type="id">false</item>
+    <item name="email_setting_message" type="id">false</item>
+    <item name="password_setting" type="id">false</item>
+    <item name="password_setting_message" type="id">false</item>
+    <item name="payment_quata_setting" type="id">false</item>
+    <item name="payment_quata_setting_message" type="id">false</item>
+    <item name="web" type="id">false</item>
+    <item name="weixin_co_order_content" type="id">false</item>
+    <item name="weixin_co_order_foods_list" type="id">false</item>
+    <item name="weixin_order_welcome_view" type="id">false</item>
+    <item name="address_list_search" type="id">false</item>
+    <item name="address_suggestion_loading" type="id">false</item>
+    <item name="address_search_no_result" type="id">false</item>
+    <item name="address_userplace_name" type="id">false</item>
+    <item name="base_list_view" type="id">false</item>
+    <item name="base_loading_text_fragment_container" type="id">false</item>
+    <item name="loading_view" type="id">false</item>
+    <item name="loading_text" type="id">false</item>
+    <item name="loading_progress" type="id">false</item>
+    <item name="bind_number" type="id">false</item>
+    <item name="book_manager_alter" type="id">false</item>
+    <item name="book_manager_cancel" type="id">false</item>
+    <item name="time" type="id">false</item>
+    <item name="camera_controller_view_internal" type="id">false</item>
+    <item name="camera_gallery" type="id">false</item>
+    <item name="shutter" type="id">false</item>
+    <item name="camera_flash_mode" type="id">false</item>
+    <item name="cart_empty_view" type="id">false</item>
+    <item name="cart_list_footer_weixin_order_entrance" type="id">false</item>
+    <item name="weixin_login" type="id">false</item>
+    <item name="cart_list_footer_weixin_order_message" type="id">false</item>
+    <item name="share_style" type="id">false</item>
+    <item name="history_deliver_address_title" type="id">false</item>
+    <item name="deliver_address_dialog_fragment_container" type="id">false</item>
+    <item name="deliver_address_view" type="id">false</item>
+    <item name="history_deliver_address" type="id">false</item>
+    <item name="deliver_address_name" type="id">false</item>
+    <item name="deliver_address_phone" type="id">false</item>
+    <item name="message_view" type="id">false</item>
+    <item name="deliver_address_history_list" type="id">false</item>
+    <item name="deliver_address_hint" type="id">false</item>
+    <item name="deliver_address_container" type="id">false</item>
+    <item name="deliver_address_indicator" type="id">false</item>
+    <item name="list_view" type="id">false</item>
+    <item name="edit_view" type="id">false</item>
+    <item name="viewPager" type="id">false</item>
+    <item name="indicator" type="id">false</item>
+    <item name="dialog_main_title" type="id">false</item>
+    <item name="dialog_sub_title" type="id">false</item>
+    <item name="home_menu_camera" type="id">false</item>
+    <item name="processing_camera_num" type="id">false</item>
+    <item name="easy_edit_text" type="id">false</item>
+    <item name="easy_edit_text_clear" type="id">false</item>
+    <item name="error_notice_button1" type="id">false</item>
+    <item name="error_notice_button2" type="id">false</item>
+    <item name="food_camera_guide_text" type="id">false</item>
+    <item name="food_comment_list_item_rate" type="id">false</item>
+    <item name="food_comment_list_item_time" type="id">false</item>
+    <item name="food_comment_list_item_user_name" type="id">false</item>
+    <item name="food_comment_list_item_msg" type="id">false</item>
+    <item name="food_detail_favor" type="id">false</item>
+    <item name="food_detail_name" type="id">false</item>
+    <item name="food_detail_rating_bar" type="id">false</item>
+    <item name="food_comment_list" type="id">false</item>
+    <item name="food_detail_image" type="id">false</item>
+    <item name="food_detail_image_text" type="id">false</item>
+    <item name="food_detail_description" type="id">false</item>
+    <item name="food_ugc_image" type="id">false</item>
+    <item name="food_filter_list_item_icon" type="id">false</item>
+    <item name="food_filter_list_item_text" type="id">false</item>
+    <item name="food_list_container" type="id">false</item>
+    <item name="shopping_cart_state_bar_fragment" type="id">false</item>
+    <item name="food_list_wrapper" type="id">false</item>
+    <item name="pull_container" type="id">false</item>
+    <item name="food_search_no_result" type="id">false</item>
+    <item name="food_list_item_name_container" type="id">false</item>
+    <item name="food_list_item_description" type="id">false</item>
+    <item name="food_list_item_rate_container" type="id">false</item>
+    <item name="food_list_item_rate" type="id">false</item>
+    <item name="food_list_icon_container" type="id">false</item>
+    <item name="promotion_icon" type="id">false</item>
+    <item name="food_list_item_add_button_container" type="id">false</item>
+    <item name="food_list_item_minus" type="id">false</item>
+    <item name="food_list_item_add_view_container" type="id">false</item>
+    <item name="food_list_item_size" type="id">false</item>
+    <item name="food_list_item_add_view" type="id">false</item>
+    <item name="food_list_item_price_text_view" type="id">false</item>
+    <item name="origin_price" type="id">false</item>
+    <item name="promotion_description" type="id">false</item>
+    <item name="food_list_item_section_description" type="id">false</item>
+    <item name="food_list_item_section_promotion" type="id">false</item>
+    <item name="food_list_item_promotion_icon" type="id">false</item>
+    <item name="food_list_item_promotion_description" type="id">false</item>
+    <item name="food_image_mask" type="id">false</item>
+    <item name="user_logo_container" type="id">false</item>
+    <item name="user_avatar" type="id">false</item>
+    <item name="user_name" type="id">false</item>
+    <item name="rating_time" type="id">false</item>
+    <item name="food_ugc_cover_view" type="id">false</item>
+    <item name="food_cover_summary_container" type="id">false</item>
+    <item name="food_ugc_image_number" type="id">false</item>
+    <item name="food_ugc_image_devider" type="id">false</item>
+    <item name="food_ugc_image_cerated_at_day" type="id">false</item>
+    <item name="food_ugc_image_cerated_at_month" type="id">false</item>
+    <item name="food_ugc_image_cerated_at_des" type="id">false</item>
+    <item name="food_ugc_image_restaurant_name" type="id">false</item>
+    <item name="white_triangle" type="id">false</item>
+    <item name="food_ugc_image_share" type="id">false</item>
+    <item name="user_comment_view" type="id">false</item>
+    <item name="all_red_envelope_button" type="id">false</item>
+    <item name="cart_bottom" type="id">false</item>
+    <item name="cart_total_price" type="id">false</item>
+    <item name="cart_food_size" type="id">false</item>
+    <item name="use_coupon" type="id">false</item>
+    <item name="cart_order_button" type="id">false</item>
+    <item name="camera_grid" type="id">false</item>
+    <item name="loading_next" type="id">false</item>
+    <item name="scroll_layout" type="id">false</item>
+    <item name="hlistview_top" type="id">false</item>
+    <item name="camera_hlist" type="id">false</item>
+    <item name="no_camera_food_item" type="id">false</item>
+    <item name="payment_verify_login_password_container" type="id">false</item>
+    <item name="pay_online_password" type="id">false</item>
+    <item name="fragment_payment_verify_phone_sms_code" type="id">false</item>
+    <item name="deliver_address_locction_icon" type="id">false</item>
+    <item name="deliver_address_locating" type="id">false</item>
+    <item name="deliver_address_phone_bk_icon" type="id">false</item>
+    <item name="deliver_address_phone_bk" type="id">false</item>
+    <item name="home_menu_root_view" type="id">false</item>
+    <item name="drawer_header" type="id">false</item>
+    <item name="menu_container" type="id">false</item>
+    <item name="drawer_main_content" type="id">false</item>
+    <item name="drawer_order_content" type="id">false</item>
+    <item name="drawer_gift_content" type="id">false</item>
+    <item name="drawer_invitation_content" type="id">false</item>
+    <item name="drawer_about_content" type="id">false</item>
+    <item name="drawer_footer" type="id">false</item>
+    <item name="main_content" type="id">false</item>
+    <item name="swipe_refresh_widget" type="id">false</item>
+    <item name="home_page_list_view" type="id">false</item>
+    <item name="invoice_inform_list" type="id">false</item>
+    <item name="invoice_add_title" type="id">false</item>
+    <item name="weibo_login" type="id">false</item>
+    <item name="renren_login" type="id">false</item>
+    <item name="online_paymethod_content" type="id">false</item>
+    <item name="online_paymethod_amount" type="id">false</item>
+    <item name="online_paymethod_container" type="id">false</item>
+    <item name="pay_online_user_red_envelope" type="id">false</item>
+    <item name="pay_online_user_red_envelope_title" type="id">false</item>
+    <item name="red_envelope_amount" type="id">false</item>
+    <item name="pay_by_balance" type="id">false</item>
+    <item name="pay_online_by_balance" type="id">false</item>
+    <item name="pay_online_balance" type="id">false</item>
+    <item name="pay_online_balance_amount" type="id">false</item>
+    <item name="use_red_envelope_indicator" type="id">false</item>
+    <item name="pay_verify" type="id">false</item>
+    <item name="pay_ali" type="id">false</item>
+    <item name="pay" type="id">false</item>
+    <item name="payment_type_limit" type="id">false</item>
+    <item name="payment_phone_verification_code_edit_text" type="id">false</item>
+    <item name="payment_type_limit_send" type="id">false</item>
+    <item name="paymethod_content" type="id">false</item>
+    <item name="paymethod_container" type="id">false</item>
+    <item name="fragment_selection" type="id">false</item>
+    <item name="fragment_selection_title" type="id">false</item>
+    <item name="fragment_selection_msg" type="id">false</item>
+    <item name="send_voice_code" type="id">false</item>
+    <item name="sending_voice_code" type="id">false</item>
+    <item name="take_order_submit" type="id">false</item>
+    <item name="gift_default_image_container" type="id">false</item>
+    <item name="gift_detail_point_container" type="id">false</item>
+    <item name="header" type="id">false</item>
+    <item name="gift_list_fragment" type="id">false</item>
+    <item name="gift_name" type="id">false</item>
+    <item name="gift_description" type="id">false</item>
+    <item name="gift_content" type="id">false</item>
+    <item name="gift_list" type="id">false</item>
+    <item name="grid_view_food_ugc_image_cover" type="id">false</item>
+    <item name="guide_viewpager" type="id">false</item>
+    <item name="ll" type="id">false</item>
+    <item name="not_use_red_envelope_button" type="id">false</item>
+    <item name="selected_indicator" type="id">false</item>
+    <item name="home_action_bar_custom_view_loading" type="id">false</item>
+    <item name="home_action_bar_custom_view" type="id">false</item>
+    <item name="home_action_bar_address_action" type="id">false</item>
+    <item name="home_action_bar_current_address_text_view" type="id">false</item>
+    <item name="home_action_bar_search_icon" type="id">false</item>
+    <item name="drawer_layout" type="id">false</item>
+    <item name="home_activity_content_container" type="id">false</item>
+    <item name="drawer_menu_fragment" type="id">false</item>
+    <item name="home_menu_user_center" type="id">false</item>
+    <item name="home_menu_header_avatar" type="id">false</item>
+    <item name="home_menu_header_user_name" type="id">false</item>
+    <item name="home_menu_header_point" type="id">false</item>
+    <item name="home_menu_header_balance" type="id">false</item>
+    <item name="name" type="id">false</item>
+    <item name="description" type="id">false</item>
+    <item name="banner_container" type="id">false</item>
+    <item name="banner_pager" type="id">false</item>
+    <item name="banner_pager_indicator" type="id">false</item>
+    <item name="entrance_container" type="id">false</item>
+    <item name="more" type="id">false</item>
+    <item name="home_page_group_restaurants_header" type="id">false</item>
+    <item name="hot_food_list" type="id">false</item>
+    <item name="hot_food_list_item_food_container" type="id">false</item>
+    <item name="hot_food_list_item_rank" type="id">false</item>
+    <item name="hot_food_list_item_food_name" type="id">false</item>
+    <item name="hot_food_list_item_rank_icon" type="id">false</item>
+    <item name="hot_food_list_item_description" type="id">false</item>
+    <item name="hot_food_list_item_sales" type="id">false</item>
+    <item name="hot_food_list_icon_container" type="id">false</item>
+    <item name="hot_food_list_item_restaurant_container" type="id">false</item>
+    <item name="hot_food_list_item_restaurant_logo" type="id">false</item>
+    <item name="hot_food_list_item_restaurant_status" type="id">false</item>
+    <item name="hot_food_list_item_restaurant_name" type="id">false</item>
+    <item name="hot_food_list_item_food_mask" type="id">false</item>
+    <item name="id_invitation" type="id">false</item>
+    <item name="invitation_webview" type="id">false</item>
+    <item name="invoice_infor_container" type="id">false</item>
+    <item name="invoice_item_container" type="id">false</item>
+    <item name="invoice_item_name" type="id">false</item>
+    <item name="invoice_item_indicator" type="id">false</item>
+    <item name="food_ugc_cover" type="id">false</item>
+    <item name="food_operation_container" type="id">false</item>
+    <item name="minus_button_view" type="id">false</item>
+    <item name="buy_number" type="id">false</item>
+    <item name="buy_button_view" type="id">false</item>
+    <item name="buy_text_view" type="id">false</item>
+    <item name="food_message" type="id">false</item>
+    <item name="food_sold_out" type="id">false</item>
+    <item name="food_rating_prompt" type="id">false</item>
+    <item name="food_rating_prompt_text" type="id">false</item>
+    <item name="msg" type="id">false</item>
+    <item name="rating_text" type="id">false</item>
+    <item name="online_paymethod_icon" type="id">false</item>
+    <item name="online_paymethod_name" type="id">false</item>
+    <item name="online_paymethod_msg" type="id">false</item>
+    <item name="online_paymethod_checkbox" type="id">false</item>
+    <item name="paymethod_name" type="id">false</item>
+    <item name="paymethod_msg" type="id">false</item>
+    <item name="paymethod_checkbox" type="id">false</item>
+    <item name="paymethod_promotions" type="id">false</item>
+    <item name="time_view" type="id">false</item>
+    <item name="expired_hours" type="id">false</item>
+    <item name="expired_minutes_seconds" type="id">false</item>
+    <item name="camera_food_container" type="id">false</item>
+    <item name="camera_food_view" type="id">false</item>
+    <item name="camera_food_icon" type="id">false</item>
+    <item name="red_envelope_bg" type="id">false</item>
+    <item name="red_envelope_name" type="id">false</item>
+    <item name="red_envelope_msg" type="id">false</item>
+    <item name="menu_icon" type="id">false</item>
+    <item name="menu_title" type="id">false</item>
+    <item name="menu_message" type="id">false</item>
+    <item name="promotion_title" type="id">false</item>
+    <item name="promotion_msg" type="id">false</item>
+    <item name="promotion_icon_indicator" type="id">false</item>
+    <item name="promotion_icon_iv" type="id">false</item>
+    <item name="short_name" type="id">false</item>
+    <item name="food_container" type="id">false</item>
+    <item name="list_view_food_ugc_image" type="id">false</item>
+    <item name="loading_arrow" type="id">false</item>
+    <item name="loading_msg" type="id">false</item>
+    <item name="login_password" type="id">false</item>
+    <item name="login_submit" type="id">false</item>
+    <item name="login_name" type="id">false</item>
+    <item name="image_view" type="id">false</item>
+    <item name="mobile_validation_code" type="id">false</item>
+    <item name="mobile_validation_send_code" type="id">false</item>
+    <item name="bind_mobile" type="id">false</item>
+    <item name="mobile_send_voice_code" type="id">false</item>
+    <item name="mobile_sending_voice_code" type="id">false</item>
+    <item name="order_error_content" type="id">false</item>
+    <item name="order_history_list" type="id">false</item>
+    <item name="order_detail_activity_content_container" type="id">false</item>
+    <item name="order_detail_header_fragment_container" type="id">false</item>
+    <item name="order_detail_header_fragment_devider" type="id">false</item>
+    <item name="order_detail_fragment_container" type="id">false</item>
+    <item name="goto_order_camera_activity" type="id">false</item>
+    <item name="order_detail_food_list_item_name" type="id">false</item>
+    <item name="order_detail_food_list_item_size" type="id">false</item>
+    <item name="order_detail_food_list_item_price" type="id">false</item>
+    <item name="report_restaurant" type="id">false</item>
+    <item name="order_detail_food_size" type="id">false</item>
+    <item name="order_detail_order_cost" type="id">false</item>
+    <item name="order_detail_food_list" type="id">false</item>
+    <item name="order_detail_information_list" type="id">false</item>
+    <item name="order_detail_remarks_content" type="id">false</item>
+    <item name="order_pay_note" type="id">false</item>
+    <item name="order_detail_restaurant" type="id">false</item>
+    <item name="order_detail_restaurant_logo" type="id">false</item>
+    <item name="order_detail_restaurant_name" type="id">false</item>
+    <item name="order_detail_msg" type="id">false</item>
+    <item name="order_detail_state_title" type="id">false</item>
+    <item name="order_detail_state_msg" type="id">false</item>
+    <item name="order_detail_button_container" type="id">false</item>
+    <item name="order_detail_btton_1" type="id">false</item>
+    <item name="order_detail_btton_2" type="id">false</item>
+    <item name="order_detail_information_item_name" type="id">false</item>
+    <item name="order_history_list_item_state" type="id">false</item>
+    <item name="order_history_list_item_restaurant_logo" type="id">false</item>
+    <item name="order_history_list_item_restaurant_name" type="id">false</item>
+    <item name="order_history_list_item_msg" type="id">false</item>
+    <item name="order_rating_food_list_item_image" type="id">false</item>
+    <item name="order_rating_food_list_item_name" type="id">false</item>
+    <item name="order_rating_food_list_item_rating_indicator" type="id">false</item>
+    <item name="order_remarks_msg" type="id">false</item>
+    <item name="order_remarks_submit" type="id">false</item>
+    <item name="reported_view" type="id">false</item>
+    <item name="photo_optimzing_view" type="id">false</item>
+    <item name="photo_del" type="id">false</item>
+    <item name="photo_optimize" type="id">false</item>
+    <item name="photo_ok" type="id">false</item>
+    <item name="popup_background_left" type="id">false</item>
+    <item name="popup_background_right" type="id">false</item>
+    <item name="popup_background_text" type="id">false</item>
+    <item name="promotion_loading" type="id">false</item>
+    <item name="promotion_empty" type="id">false</item>
+    <item name="promotion_pop_window_list" type="id">false</item>
+    <item name="pull_note" type="id">false</item>
+    <item name="quota_amount" type="id">false</item>
+    <item name="quota_next" type="id">false</item>
+    <item name="vp_tab_strip" type="id">false</item>
+    <item name="vp" type="id">false</item>
+    <item name="restaurant_detail_header" type="id">false</item>
+    <item name="restaurant_detail_favor" type="id">false</item>
+    <item name="restaurant_detail_logo" type="id">false</item>
+    <item name="restaurant_detail_name" type="id">false</item>
+    <item name="restauant_detail_rating_bar_container" type="id">false</item>
+    <item name="restaurant_detail_rating_bar" type="id">false</item>
+    <item name="restaurant_detail_rate_numbers" type="id">false</item>
+    <item name="restaurant_detail_msg_divider" type="id">false</item>
+    <item name="restaurant_detail_promotion_info" type="id">false</item>
+    <item name="restaurant_promotions" type="id">false</item>
+    <item name="restaurant_promotions_container" type="id">false</item>
+    <item name="restaurant_supports" type="id">false</item>
+    <item name="restaurant_supports_container" type="id">false</item>
+    <item name="restaurant_detail_icons_container" type="id">false</item>
+    <item name="restaurant_detail_intro" type="id">false</item>
+    <item name="restaurant_detail_business_hours" type="id">false</item>
+    <item name="restaurant_detail_location" type="id">false</item>
+    <item name="restaurant_detail_header_msg_data" type="id">false</item>
+    <item name="restaurant_detail_header_msg_title" type="id">false</item>
+    <item name="filter_container" type="id">false</item>
+    <item name="home_restaurant_flavor_filter_text_view" type="id">false</item>
+    <item name="flavor_tab_clickable_indicator" type="id">false</item>
+    <item name="sort_restaurant_text" type="id">false</item>
+    <item name="sort_tab_clickable_indicator" type="id">false</item>
+    <item name="promotion_text" type="id">false</item>
+    <item name="promotion_tab_clickable_indicator" type="id">false</item>
+    <item name="restuarant_filter_list_item" type="id">false</item>
+    <item name="restuarant_filter_list_item_text" type="id">false</item>
+    <item name="restuarant_filter_list_item_indicator" type="id">false</item>
+    <item name="restaurant_list_item_first_promotion_icon" type="id">false</item>
+    <item name="restaurant_list_item_first_promotion" type="id">false</item>
+    <item name="restaurant_list_item_more_promotion" type="id">false</item>
+    <item name="icon_view" type="id">false</item>
+    <item name="description_view" type="id">false</item>
+    <item name="restaurant_list_item_logo" type="id">false</item>
+    <item name="restaurant_list_item_avaiable" type="id">false</item>
+    <item name="restaurant_list_item_rate" type="id">false</item>
+    <item name="restaurant_list_item_rate_numbers" type="id">false</item>
+    <item name="restaurant_list_item_buynums" type="id">false</item>
+    <item name="restaurant_list_item_msg" type="id">false</item>
+    <item name="restaurant_list_item_promotion_container" type="id">false</item>
+    <item name="restaurant_list_item_present_promotion_container" type="id">false</item>
+    <item name="restaurant_list_item_more_promotion_container" type="id">false</item>
+    <item name="restaurant_list_item_mask" type="id">false</item>
+    <item name="restaurant_promotion_icon" type="id">false</item>
+    <item name="restaurant_promotion_description" type="id">false</item>
+    <item name="restaurant_address" type="id">false</item>
+    <item name="restaurant_search_list_view" type="id">false</item>
+    <item name="restaurant_search_loading" type="id">false</item>
+    <item name="retaurant_search_no_result" type="id">false</item>
+    <item name="restaurant_status_view" type="id">false</item>
+    <item name="restaurant_rest" type="id">false</item>
+    <item name="restaurant_book_only" type="id">false</item>
+    <item name="webview" type="id">false</item>
+    <item name="webview_progressbar" type="id">false</item>
+    <item name="search_address_edit_text" type="id">false</item>
+    <item name="search_address_close" type="id">false</item>
+    <item name="search_address_confirm" type="id">false</item>
+    <item name="shopping_cart_state_bar_content_view" type="id">false</item>
+    <item name="food_list_order_cart" type="id">false</item>
+    <item name="food_list_order_state" type="id">false</item>
+    <item name="food_list_shipping_fee" type="id">false</item>
+    <item name="goto_cart" type="id">false</item>
+    <item name="food_list_take_order_button" type="id">false</item>
+    <item name="splash_firm" type="id">false</item>
+    <item name="take_order_activity_content_container" type="id">false</item>
+    <item name="timeline_loading" type="id">false</item>
+    <item name="credits_icon" type="id">false</item>
+    <item name="credits_title" type="id">false</item>
+    <item name="credits_msg" type="id">false</item>
+    <item name="alert_dialog_fragment_title" type="id">false</item>
+    <item name="update_later" type="id">false</item>
+    <item name="update_now" type="id">false</item>
+    <item name="id_coupon_text" type="id">false</item>
+    <item name="id_submit_coupon" type="id">false</item>
+    <item name="user_center_content_container" type="id">false</item>
+    <item name="user_center_bg" type="id">false</item>
+    <item name="user_center_profile_container" type="id">false</item>
+    <item name="user_center_avatar" type="id">false</item>
+    <item name="user_center_name" type="id">false</item>
+    <item name="modify_user_name" type="id">false</item>
+    <item name="user_center_point" type="id">false</item>
+    <item name="user_center_balance" type="id">false</item>
+    <item name="user_center_security_setting" type="id">false</item>
+    <item name="user_center_red_envelopes" type="id">false</item>
+    <item name="address_list_history" type="id">false</item>
+    <item name="address_suggestion_list_header_locate" type="id">false</item>
+    <item name="address_suggestion_locate_icon" type="id">false</item>
+    <item name="address_suggestion_locating" type="id">false</item>
+    <item name="user_place_loading" type="id">false</item>
+    <item name="user_place_loading_text" type="id">false</item>
+    <item name="user_place_loading_progress" type="id">false</item>
+    <item name="food_quantity" type="id">false</item>
+    <item name="food_total_price" type="id">false</item>
+    <item name="weixin_co_order_circle" type="id">false</item>
+    <item name="order_locked" type="id">false</item>
+    <item name="weixin_co_order_title" type="id">false</item>
+    <item name="ordering_members" type="id">false</item>
+    <item name="weixin_co_order_view" type="id">false</item>
+    <item name="weixin_order" type="id">false</item>
+    <item name="weixin_order_welcome_view_pager" type="id">false</item>
+    <item name="pager_indicator" type="id">false</item>
+    <item name="weixin_order_welcome_image" type="id">false</item>
+    <item name="weixin_order_welcome_title" type="id">false</item>
+    <item name="weixin_order_welcome_message" type="id">false</item>
+    <item name="welcome_start_order" type="id">false</item>
+    <item name="login_action" type="id">false</item>
+    <item name="goto_restaurant_menu" type="id">false</item>
+    <item name="search_action" type="id">false</item>
+    <item name="time_line_action" type="id">false</item>
+    <item name="phone_action" type="id">false</item>
+    <item name="invitation_list_item" type="id">false</item>
+    <item name="action_settings" type="id">false</item>
+    <item name="user_center_action_more_setting" type="id">false</item>
+</resources>

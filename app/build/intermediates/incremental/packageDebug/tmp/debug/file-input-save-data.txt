@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Mon May 14 17:49:57 CST 2018
+1.base=C\:\\Users\\H0136899\\Downloads\\ele_me2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=ali_head.jpg
+0.set=ASSET
+0.base=C\:\\Users\\H0136899\\Downloads\\ele_me2\\app\\build\\intermediates\\assets\\debug
+1.path=classes.dex
