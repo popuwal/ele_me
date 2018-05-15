@@ -1138,6 +1138,7 @@
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="action_settings">Settings</string>
     <string name="app_name">饿了么</string>
+    <string name="denglu">头像信息</string>
     <string name="hello_world">Hello world!</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">

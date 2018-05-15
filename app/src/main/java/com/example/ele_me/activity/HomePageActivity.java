@@ -29,7 +29,7 @@ public class HomePageActivity extends Activity {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);  // 获取屏幕的长宽
         setContentView(R.layout.slidingpane_main_layout);
         Injector.get(this).inject();//init views
         menuFragment = new MenuFragment();

@@ -1288,8 +1288,9 @@ int menu main 0x7f0b0000
 int raw tone_cuver_sample 0x7f0c0000
 int string action_settings 0x7f0d0000
 int string app_name 0x7f0d0001
-int string hello_world 0x7f0d0002
-int string status_bar_notification_info_overflow 0x7f0d0003
+int string denglu 0x7f0d0002
+int string hello_world 0x7f0d0003
+int string status_bar_notification_info_overflow 0x7f0d0004
 int style AppBaseTheme 0x7f0e0000
 int style AppTheme 0x7f0e0001
 int style CommonSplitLine 0x7f0e0002
