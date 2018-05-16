@@ -11,7 +11,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import com.example.ele_me.R;
-import com.example.ele_me.activity.CameraActivity;
+import com.example.ele_me.activity.Camera2Activity;
 import com.example.ele_me.activity.GalleryActivity;
 
 @SuppressLint("NewApi")
@@ -58,7 +58,7 @@ public class CameraFragment extends Fragment implements OnClickListener {
                 startActivity(GalleryActivity.class);
                 break;
             case R.id.btn_camera_camera:
-                startActivity(CameraActivity.class);
+                startActivity(Camera2Activity.class);
                 break;
             default:
                 break;

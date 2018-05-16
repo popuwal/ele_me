@@ -13,6 +13,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:name="com.example.BaseApplication"
@@ -36,6 +37,9 @@
         <activity android:name="com.example.ele_me.activity.DianPingWebActivity" />
         <activity android:name="com.example.ele_me.activity.LoginActivity" />
         <activity android:name="com.example.ele_me.activity.CameraActivity" />
+        <activity
+            android:name="com.example.ele_me.activity.Camera2Activity"
+            android:hardwareAccelerated="true" />
         <activity android:name="com.example.ele_me.activity.GalleryActivity" />
     </application>
 
