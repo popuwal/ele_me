@@ -11,6 +11,7 @@
         android:layout_margin="5dp"
         android:background="@drawable/back_above_menushow_style"
         android:clickable="true"
+        android:focusable="true"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -33,19 +34,20 @@
         style="@style/title_right_button"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:src="@drawable/abc_ic_search" />
 
     <TextView
         android:id="@+id/tv_common_above_head"
-        android:layout_width="wrap_content"
+        android:layout_width="189dp"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:background="@drawable/abc_spinner_ab_default_holo_light"
         android:gravity="center"
         android:scaleType="centerInside"
-        android:text="沈阳建筑大学商业街"
+        android:maxLines="10"
+        android:scrollbars="vertical"
         android:textColor="#fff" />
 
 </RelativeLayout>

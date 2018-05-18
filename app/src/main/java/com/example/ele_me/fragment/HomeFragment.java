@@ -1,14 +1,26 @@
 package com.example.ele_me.fragment;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.Fragment;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.location.Address;
+import android.location.Geocoder;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.widget.SlidingPaneLayout;
+import android.text.method.ScrollingMovementMethod;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -19,6 +31,7 @@ import android.widget.FrameLayout;
 import android.widget.FrameLayout.LayoutParams;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import com.example.ele_me.R;
 import com.example.ele_me.activity.DianPingWebActivity;
 import com.example.ele_me.activity.RestaurantDetailActivity;
@@ -39,6 +52,13 @@ public class HomeFragment extends Fragment implements OnClickListener {
     private int add = 7;
     private View listHeaderView;
     private ImageView head_pic;
+    /* popuwal 20180518 Add location start*/
+    private static String TAG = "POPUWAL";
+    private TextView textView;
+    private LocationManager locationManager;
+    LocationListener listener;
+    Geocoder geocoder;
+    /* popuwal 20180518 Add location end*/
 
     public void setCurrentViewPararms(FrameLayout.LayoutParams layoutParams) {
         currentView.setLayoutParams(layoutParams);
@@ -49,26 +69,90 @@ public class HomeFragment extends Fragment implements OnClickListener {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // TODO Auto-generated method stub
-        currentView = inflater.inflate(R.layout.slidingpane_home_layout,
-                container, false);
-        mListView = currentView
-                .findViewById(R.id.mineList);
-        openMenu = currentView
-                .findViewById(R.id.linear_above_toHome);
-        listHeaderView = getActivity().getLayoutInflater().inflate(
-                R.layout.home_head_view, null);
-        head_pic = listHeaderView
-                .findViewById(R.id.iv_home_head);
+        currentView = inflater.inflate(R.layout.slidingpane_home_layout, container, false);
+        mListView = currentView.findViewById(R.id.mineList);
+        openMenu = currentView.findViewById(R.id.linear_above_toHome);
+        listHeaderView = getActivity().getLayoutInflater().inflate(R.layout.home_head_view, null);
+        head_pic = listHeaderView.findViewById(R.id.iv_home_head);
         openMenu.setOnClickListener(this);
         getDate();
         setListener();
+        /* Add Location test*/
+        listener = new LocationListener() {
+            @Override
+            public void onLocationChanged(Location location) {
+                Log.e(TAG, "onLocationChanged "+location);
+                if (location != null) {
+                    List<Address> addresses = null;
+                    try {
+                        addresses = geocoder.getFromLocation(location.getLatitude(), location.getLongitude(), 5);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    for (Address add:addresses) {
+                        Log.e(TAG, "location onLocationChanged is: " + add.getAddressLine(0)+" for "+add.getThoroughfare());
+                    }
+                    textView.setText(addresses.get(0).getAddressLine(0)+"location changed");
+                }
+            }
+
+            @Override
+            public void onStatusChanged(String provider, int status, Bundle extras) {
+                Log.e(TAG, "onLocationChanged "+extras.toString());
+            }
+
+            @Override
+            public void onProviderEnabled(String provider) {
+                Log.e(TAG, "onLocationChanged provider is enable");
+            }
+
+            @Override
+            public void onProviderDisabled(String provider) {
+                Log.e(TAG, "onLocationChanged onProviderDisabled");
+            }
+        };
+        textView = (TextView) currentView.findViewById(R.id.tv_common_above_head);
+        textView.setMovementMethod(ScrollingMovementMethod.getInstance());
+        getLocation();
+        /**/
         return currentView;
     }
 
-    public void setListener() {
+    private void getLocation() {
+        locationManager = (LocationManager) getContext().getSystemService(Context.LOCATION_SERVICE);
+        if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            //    ActivityCompat#requestPermissions
+            // here to request the missing permissions, and then overriding
+            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+            //                                          int[] grantResults)
+            // to handle the case where the user grants the permission. See the documentation
+            // for ActivityCompat#requestPermissions for more details.
+            requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION},103 );
+            requestPermissions(new String[]{Manifest.permission.INTERNET}, 105);
+            return;
+        }
+        Location location = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+        Log.e(TAG, "location is: " + location+" provider for Network");
+        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 10, listener);
+        geocoder = new Geocoder(getContext());
+        try {
+            if (location != null) {
+                List<Address> addresses = geocoder.getFromLocation(location.getLatitude(), location.getLongitude(), 5);
+                StringBuffer buffer = new StringBuffer();
+                for (Address add:addresses) {
+                    buffer.append(add.getFeatureName()+"\n");
+                    Log.e(TAG, "location is: " + add.getAddressLine(0)+" for "+add.getFeatureName());
+                }
+                textView.setText(buffer);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void setListener() {
 
         mListView.setOnRefreshListener(new OnRefreshListener() {
 

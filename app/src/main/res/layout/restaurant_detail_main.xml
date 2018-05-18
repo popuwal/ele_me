@@ -18,7 +18,7 @@
         android:drawSelectorOnTop="true"
         android:fastScrollEnabled="true"
         android:overScrollMode="never"
-        android:scrollbarStyle="outsideOverlay"></com.example.ele_me.widget.stickylistheaders.StickyListHeadersListView>
+        android:scrollbarStyle="outsideOverlay"/>
 
     <include
         android:id="@+id/restaurant_bottom"

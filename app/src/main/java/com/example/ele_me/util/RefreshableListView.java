@@ -6,8 +6,10 @@ import android.graphics.Bitmap.Config;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
 import android.os.Handler;
+import android.os.Looper;
 import android.os.Message;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -37,8 +39,8 @@ public class RefreshableListView extends ListView {
     private boolean mFlag = false;
     private boolean mArrowUp = false;
     private boolean mIsRefreshing = false;
-    private int mHeaderHeight = 0;
-    private final Handler mHandler = new Handler() {
+    private static int mHeaderHeight = 0;
+    private  final Handler mHandler = new Handler(Looper.myLooper()) {
 
         @Override
         public void handleMessage(final Message msg) {
@@ -55,9 +57,13 @@ public class RefreshableListView extends ListView {
             }
 
             // Elastic scrolling
+            /**
+             * 刷新的时候的作用是降低到阈值，NORMAL的作用是慢慢消失
+             */
             if (msg.arg1 >= limit) {
-                setHeaderHeight(msg.arg1);
+                setHeaderHeight(msg.arg1,false);
                 int displacement = (msg.arg1 - limit) / 10;
+                Log.e("POPUWAL", "handleMessage "+msg.arg1+"limit "+limit);
                 if (displacement == 0) {
                     mHandler.sendMessage(mHandler.obtainMessage(msg.what, msg.arg1 - 1, 0));
                 } else {
@@ -68,6 +74,7 @@ public class RefreshableListView extends ListView {
         }
 
     };
+
 //    private static final String TAG = RefreshableListView.class.getSimpleName();
     private OnRefreshListener mListener = null;
 
@@ -86,12 +93,16 @@ public class RefreshableListView extends ListView {
         initialize();
     }
 
-    //����ˢ�¼���
+    /**
+     * setOnRefreshListener
+     */
     public void setOnRefreshListener(final OnRefreshListener l) {
         mListener = l;
     }
 
-    //���ˢ��
+    /**
+     * completeRefreshing
+     */
     public void completeRefreshing() {
         mProgress.setVisibility(View.INVISIBLE);
         mArrow.setVisibility(View.VISIBLE);
@@ -134,6 +145,7 @@ public class RefreshableListView extends ListView {
                         }
                     }
                 } else {
+                    // (ev.getY() - mY) / 2 is growth for the centrol of the view
                     mHandler.sendMessage(mHandler.obtainMessage(REFRESH, (int) (ev.getY() - mY) / 2
                             + mInitialHeight, 0));
                 }
@@ -168,7 +180,7 @@ public class RefreshableListView extends ListView {
                         }
 
                         // Extends refresh bar
-                        setHeaderHeight(height);
+                        setHeaderHeight(height,true);
 
                         // Stop list scroll to prevent the list from
                         // overscrolling
@@ -182,7 +194,7 @@ public class RefreshableListView extends ListView {
                     // is
                     // visible
                     if (getChildAt(0).getTop() == 0) {
-                        setHeaderHeight(height);
+                        setHeaderHeight(height,false);
 
                         // If scroll reaches top of the list, list scroll is
                         // enabled
@@ -213,7 +225,7 @@ public class RefreshableListView extends ListView {
         }
     }
 
-    //��ʼ����ͼ
+    //initialize
     private void initialize() {
         LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(
                 Context.LAYOUT_INFLATER_SERVICE);
@@ -225,10 +237,10 @@ public class RefreshableListView extends ListView {
         addHeaderView(mHeaderContainer);
 
         mHeaderHeight = (int) (HEADER_HEIGHT_DP * getContext().getResources().getDisplayMetrics().density);
-        setHeaderHeight(0);
+        setHeaderHeight(0,true);
     }
 
-    private void setHeaderHeight(final int height) {
+    private void setHeaderHeight(final int height, boolean up) {
         if (height <= 1) {
             mHeaderView.setVisibility(View.GONE);
         } else {
@@ -238,16 +250,16 @@ public class RefreshableListView extends ListView {
         // Extends refresh bar
         LayoutParams lp = (LayoutParams) mHeaderContainer.getLayoutParams();
         if (lp == null) {
-            lp = new LayoutParams(LayoutParams.FILL_PARENT, LayoutParams.WRAP_CONTENT);
+            lp = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
         }
         lp.height = height;
         mHeaderContainer.setLayoutParams(lp);
 
-        // Refresh bar shows up from bottom to top
+        // Refresh bar shows up from bottom to top https://www.jianshu.com/p/0d6f753fdd92
         LinearLayout.LayoutParams headerLp = (LinearLayout.LayoutParams) mHeaderView
-                .getLayoutParams();
+                .getLayoutParams(); // here getLayoutParams is parent's LayoutParams
         if (headerLp == null) {
-            headerLp = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT,
+            headerLp = new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT,
                     LayoutParams.WRAP_CONTENT);
         }
         headerLp.topMargin = -mHeaderHeight + height;
@@ -255,18 +267,21 @@ public class RefreshableListView extends ListView {
 
         if (!mIsRefreshing) {
             // If scroll reaches the trigger line, start refreshing
-            if (height > mHeaderHeight && !mArrowUp) {
+            if (height > mHeaderHeight && !mArrowUp && up) {
                 mArrow.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.rotate));
-                mText.setText("ˢ������");
+                mText.setText("ready to update...");
                 rotateArrow();
                 mArrowUp = true;
-            } else if (height < mHeaderHeight && mArrowUp) {
+            } else if (height < mHeaderHeight && mArrowUp && !up) {
                 mArrow.startAnimation(AnimationUtils.loadAnimation(getContext(), R.anim.rotate));
-                mText.setText("����ˢ��");
+                mText.setText("stop update ...");
                 rotateArrow();
                 mArrowUp = false;
+            }else if (height < mHeaderHeight && up){
+                mText.setText("");
             }
         }
+        Log.e("POPUWAL", "height"+height+" up "+up+" text "+mText.getText());
     }
 
     private void rotateArrow() {
@@ -282,11 +297,11 @@ public class RefreshableListView extends ListView {
         mArrow.setImageBitmap(bitmap);
     }
 
-    //�����ɿ���ʼˢ������
+    //startRefreshing
     private void startRefreshing() {
         mArrow.setVisibility(View.INVISIBLE);
         mProgress.setVisibility(View.VISIBLE);
-        mText.setText("����...");
+        mText.setText("startRefreshing...");
         mIsRefreshing = true;
 
         if (mListener != null) {
