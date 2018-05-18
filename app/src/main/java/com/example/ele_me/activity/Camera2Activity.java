@@ -79,7 +79,7 @@ static {
         // preview view
         textureView = (TextureView) findViewById(R.id.surfaceView);
         textureView.setSurfaceTextureListener(this);
-        textureView.setAlpha(0.8f);
+        //textureView.setAlpha(0.8f);
 
         // switch view
         imageView = (ImageView)findViewById(R.id.img_switch_camera);
@@ -97,6 +97,7 @@ static {
         } catch (CameraAccessException | NullPointerException e) {
             e.printStackTrace();
         }
+        getActionBar().hide();
     }
 
     @Override

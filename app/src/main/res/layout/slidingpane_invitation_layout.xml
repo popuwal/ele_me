@@ -12,6 +12,6 @@
 
     <include
         layout="@layout/common_webview"
-        android:layout_marginTop="48dp"></include>
+        android:layout_marginTop="48dp"/>
 
 </LinearLayout>

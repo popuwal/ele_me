@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clickable="true"
     android:background="@android:color/white">
 
     <include
@@ -17,6 +18,6 @@
         android:dividerHeight="1dip"
         android:drawSelectorOnTop="false"
         android:fadingEdgeLength="0.0sp"
-        android:scrollbars="none"></com.example.ele_me.util.RefreshableListView>
+        android:scrollbars="none"/>
 
 </RelativeLayout>
