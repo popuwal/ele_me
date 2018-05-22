@@ -1,165 +1,165 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-44:12
-MERGED from [com.android.support:support-v13:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\e42c0a5e21561a1f63e4c07f597d1275\AndroidManifest.xml:17:1-22:12
-MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\gpuimage-library-1.4.1.aar\e96017bce7a10162fe789d66e4240005\AndroidManifest.xml:2:1-12:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c85de78adab2eac6bc3472bb7093b31d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\68f37ccced5d522ebcf507edc8b55299\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5c642c3df8e3a6c6cb64be5da3bcacc2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\491d44ba0ea82e45b3a5f02db2f863f1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f4b04cc97001fedb6d3d9556e5a5c8d4\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4117f672b770c2da92ad83e10a247c1c\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a7497cfcc1c29aae6576581788d87b00\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\75cca66ec22b7f29feea964113b19db2\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\a2a1bd9a6b8f13a26967878ad7a46170\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5b756f445674c6a280bcca03a515cffb\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml:2:1-44:12
+MERGED from [com.android.support:support-v13:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\83afddfacc1eeb44b88719ae4aa545f2\AndroidManifest.xml:17:1-22:12
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\gpuimage-library-1.4.1.aar\4b795da7f1f6e163b28ec76748fb36a1\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\5cd23ee76fb98469d1f0df7033bc16f5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\58e35928b19b632a493a6158736c8013\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\2650058be11e495908ba19ba52732bb4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\2fefe63ec52f6b8f166babeadfff2a8c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\4823d6d77dab7233c940e9afd433cb5d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\81c40f0a69e4303de8bc8831c51b8c04\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b8fbdb89c3f7397ae2b1f57b19894cd5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\711a227699ae3bb97f243098840e2cbf\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\65d4959772cf96cb402504c5072d15de\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f5dd5a976ed4b636c8cc863405d02853\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:3:5-33
-		INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml
+		INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml
+		INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml
+		INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:8:5-78
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:8:5-78
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:8:22-76
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:8:22-76
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:9:5-66
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:9:5-66
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:9:22-64
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:9:22-64
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:10:5-75
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:10:5-75
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:10:22-73
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:10:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:11:5-75
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:11:5-75
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:11:22-73
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:11:22-73
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:12:5-64
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:12:5-64
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:12:22-62
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:12:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:13:5-80
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:13:5-80
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:13:22-78
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:13:22-78
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:14:5-80
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:14:5-80
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:14:22-78
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:14:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:15:5-78
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:15:5-78
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:15:22-76
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:15:22-76
 application
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:18:5-42:19
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:18:5-42:19
 	android:label
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:22:9-41
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:22:9-41
 	android:icon
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:21:9-38
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:21:9-38
 	android:allowBackup
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:20:9-35
 	android:theme
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:23:9-40
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:23:9-40
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:19:9-51
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:19:9-51
 activity#com.example.ele_me.activity.WelcomeActivity
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:24:9-33:20
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:24:9-33:20
 	android:label
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:27:13-45
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:27:13-45
 	android:configChanges
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:26:13-48
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:26:13-48
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:25:13-71
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:25:13-71
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:28:13-32:29
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:31:17-77
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:31:27-74
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:31:27-74
 activity#com.example.ele_me.activity.HomePageActivity
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:34:9-90
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:34:9-90
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:34:19-78
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:34:19-78
 activity#com.example.ele_me.activity.RestaurantDetailActivity
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:35:9-98
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:35:9-98
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:35:19-86
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:35:19-86
 activity#com.example.ele_me.activity.DianPingWebActivity
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:36:9-93
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:36:9-93
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:36:19-81
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:36:19-81
 activity#com.example.ele_me.activity.LoginActivity
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:37:9-87
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:37:9-87
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:37:19-75
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:37:19-75
 activity#com.example.ele_me.activity.CameraActivity
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:38:9-88
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:38:9-88
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:38:19-76
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:38:19-76
 activity#com.example.ele_me.activity.Camera2Activity
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:39:9-40:59
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:39:9-40:59
 	android:hardwareAccelerated
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:40:13-47
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:40:13-47
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:39:19-77
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:39:19-77
 activity#com.example.ele_me.activity.GalleryActivity
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:41:9-89
+ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:41:9-89
 	android:name
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:41:19-77
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml:41:19-77
 uses-sdk
-INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:support-v13:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\e42c0a5e21561a1f63e4c07f597d1275\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v13:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\e42c0a5e21561a1f63e4c07f597d1275\AndroidManifest.xml:20:5-44
-MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\gpuimage-library-1.4.1.aar\e96017bce7a10162fe789d66e4240005\AndroidManifest.xml:8:5-10:41
-MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\gpuimage-library-1.4.1.aar\e96017bce7a10162fe789d66e4240005\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c85de78adab2eac6bc3472bb7093b31d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c85de78adab2eac6bc3472bb7093b31d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\68f37ccced5d522ebcf507edc8b55299\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\68f37ccced5d522ebcf507edc8b55299\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5c642c3df8e3a6c6cb64be5da3bcacc2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5c642c3df8e3a6c6cb64be5da3bcacc2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\491d44ba0ea82e45b3a5f02db2f863f1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\491d44ba0ea82e45b3a5f02db2f863f1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f4b04cc97001fedb6d3d9556e5a5c8d4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f4b04cc97001fedb6d3d9556e5a5c8d4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4117f672b770c2da92ad83e10a247c1c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4117f672b770c2da92ad83e10a247c1c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a7497cfcc1c29aae6576581788d87b00\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a7497cfcc1c29aae6576581788d87b00\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\75cca66ec22b7f29feea964113b19db2\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\75cca66ec22b7f29feea964113b19db2\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\a2a1bd9a6b8f13a26967878ad7a46170\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\a2a1bd9a6b8f13a26967878ad7a46170\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5b756f445674c6a280bcca03a515cffb\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5b756f445674c6a280bcca03a515cffb\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml
+INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml
+INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\83afddfacc1eeb44b88719ae4aa545f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\83afddfacc1eeb44b88719ae4aa545f2\AndroidManifest.xml:20:5-44
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\gpuimage-library-1.4.1.aar\4b795da7f1f6e163b28ec76748fb36a1\AndroidManifest.xml:8:5-10:41
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\gpuimage-library-1.4.1.aar\4b795da7f1f6e163b28ec76748fb36a1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\5cd23ee76fb98469d1f0df7033bc16f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\5cd23ee76fb98469d1f0df7033bc16f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\58e35928b19b632a493a6158736c8013\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\58e35928b19b632a493a6158736c8013\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\2650058be11e495908ba19ba52732bb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\2650058be11e495908ba19ba52732bb4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\2fefe63ec52f6b8f166babeadfff2a8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\2fefe63ec52f6b8f166babeadfff2a8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\4823d6d77dab7233c940e9afd433cb5d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\4823d6d77dab7233c940e9afd433cb5d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\81c40f0a69e4303de8bc8831c51b8c04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\81c40f0a69e4303de8bc8831c51b8c04\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b8fbdb89c3f7397ae2b1f57b19894cd5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\b8fbdb89c3f7397ae2b1f57b19894cd5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\711a227699ae3bb97f243098840e2cbf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\711a227699ae3bb97f243098840e2cbf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\65d4959772cf96cb402504c5072d15de\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\65d4959772cf96cb402504c5072d15de\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f5dd5a976ed4b636c8cc863405d02853\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\dell\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f5dd5a976ed4b636c8cc863405d02853\AndroidManifest.xml:20:5-44
+INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml
+INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml
+		INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml
+		INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml
+		INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml
+		ADDED from E:\project\ele_me\app\src\main\AndroidManifest.xml
+		INJECTED from E:\project\ele_me\app\src\main\AndroidManifest.xml

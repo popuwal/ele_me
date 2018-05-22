@@ -39,6 +39,7 @@ import android.view.Surface;
 import android.view.TextureView;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 import com.example.ele_me.R;
 import com.example.ele_me.util.ImageSaver;
@@ -97,6 +98,7 @@ static {
         } catch (CameraAccessException | NullPointerException e) {
             e.printStackTrace();
         }
+
         getActionBar().hide();
     }
 

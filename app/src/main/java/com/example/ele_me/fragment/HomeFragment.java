@@ -91,10 +91,13 @@ public class HomeFragment extends Fragment implements OnClickListener {
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
+                    StringBuffer buffer = new StringBuffer();
+                    if (addresses !=null)
                     for (Address add:addresses) {
                         Log.e(TAG, "location onLocationChanged is: " + add.getAddressLine(0)+" for "+add.getThoroughfare());
+                        buffer.append(add.getFeatureName()+"\n");
                     }
-                    textView.setText(addresses.get(0).getAddressLine(0)+"location changed");
+                    textView.setText(buffer+"\n location changed");
                 }
             }
 

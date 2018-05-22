@@ -103,9 +103,9 @@ public final class R {
         public static final int tag_transition_group = 0x7f08036f;
         public static final int text = 0x7f080372;
         public static final int text2 = 0x7f080373;
-        public static final int time = 0x7f080379;
-        public static final int title = 0x7f08038c;
-        public static final int top = 0x7f08038d;
+        public static final int time = 0x7f08037a;
+        public static final int title = 0x7f08038d;
+        public static final int top = 0x7f08038e;
     }
     public static final class integer {
         public static final int status_bar_notification_info_maxnum = 0x7f090001;
