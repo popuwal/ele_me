@@ -1,5 +1,9 @@
 package com.example.ele_me.fragment;
 
+import org.json.JSONObject;
+
+import java.util.List;
+
 import android.annotation.SuppressLint;
 import android.app.Fragment;
 import android.content.Intent;
@@ -11,8 +15,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.TextView;
-
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -22,16 +24,15 @@ import com.android.volley.toolbox.Volley;
 import com.example.ele_me.R;
 import com.example.ele_me.activity.Camera2Activity;
 import com.example.ele_me.activity.GalleryActivity;
+import com.example.ele_me.activity.IMTest;
 import com.example.ele_me.entity.TestVolleyJson;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
 @SuppressLint("NewApi")
 public class CameraFragment extends Fragment implements OnClickListener {
     private View currentView;
     private LinearLayout openMenu;
-    private TextView textView;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -46,7 +47,8 @@ public class CameraFragment extends Fragment implements OnClickListener {
                 this);
         currentView.findViewById(R.id.btn_camera_camera).setOnClickListener(
                 this);
-        textView = currentView.findViewById(R.id.textView1);
+        currentView.findViewById(R.id.volley).setOnClickListener(
+                this);
         RequestQueue volley = Volley.newRequestQueue(getContext());
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, "http://staging.talentslist.com/api/user/23/chat",
                 null, new Response.Listener<JSONObject>() {
@@ -54,6 +56,8 @@ public class CameraFragment extends Fragment implements OnClickListener {
             public void onResponse(JSONObject response) {
                 String ss = response.toString();
                 Log.e("POPUWAL","onResponse "+ss);
+                Gson gson = new Gson();
+                List<TestVolleyJson> testVolleyJsons = gson.fromJson(ss, new TypeToken<List<TestVolleyJson>>(){}.getType());
                 //TestVolleyJson testVolleyJson = response..
             }
         }, new Response.ErrorListener() {
@@ -62,6 +66,7 @@ public class CameraFragment extends Fragment implements OnClickListener {
                 Log.e("POPUWAL","onErrorResponse "+error.toString());
             }
         });
+        volley.add(jsonObjectRequest);
         return currentView;
     }
 
@@ -89,6 +94,9 @@ public class CameraFragment extends Fragment implements OnClickListener {
                 break;
             case R.id.btn_camera_camera:
                 startActivity(Camera2Activity.class);
+                break;
+            case R.id.volley:
+                startActivity(IMTest.class);
                 break;
             default:
                 break;

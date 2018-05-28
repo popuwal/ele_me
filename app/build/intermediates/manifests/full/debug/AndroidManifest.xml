@@ -43,6 +43,9 @@
         <activity
             android:name="com.example.ele_me.activity.Camera2Activity"
             android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.example.ele_me.activity.IMTest"
+            android:hardwareAccelerated="true" />
         <activity android:name="com.example.ele_me.activity.GalleryActivity" />
     </application>
 
