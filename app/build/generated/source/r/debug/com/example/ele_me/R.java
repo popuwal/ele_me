@@ -23,24 +23,57 @@ public final class R {
      */
     public static final int coordinatorLayoutStyle=0x7f030000;
     /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int fastScrollEnabled=0x7f030001;
+    /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int font=0x7f030001;
+    public static final int fastScrollHorizontalThumbDrawable=0x7f030002;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int fastScrollHorizontalTrackDrawable=0x7f030003;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int fastScrollVerticalThumbDrawable=0x7f030004;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int fastScrollVerticalTrackDrawable=0x7f030005;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int font=0x7f030006;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderAuthority=0x7f030002;
+    public static final int fontProviderAuthority=0x7f030007;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fontProviderCerts=0x7f030003;
+    public static final int fontProviderCerts=0x7f030008;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -52,7 +85,7 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchStrategy=0x7f030004;
+    public static final int fontProviderFetchStrategy=0x7f030009;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
@@ -64,17 +97,17 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchTimeout=0x7f030005;
+    public static final int fontProviderFetchTimeout=0x7f03000a;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderPackage=0x7f030006;
+    public static final int fontProviderPackage=0x7f03000b;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderQuery=0x7f030007;
+    public static final int fontProviderQuery=0x7f03000c;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -86,35 +119,40 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontStyle=0x7f030008;
+    public static final int fontStyle=0x7f03000d;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int fontWeight=0x7f030009;
+    public static final int fontWeight=0x7f03000e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hasStickyHeaders=0x7f03000a;
+    public static final int hasStickyHeaders=0x7f03000f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int isDrawingListUnderStickyHeader=0x7f03000b;
+    public static final int isDrawingListUnderStickyHeader=0x7f030010;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int keylines=0x7f03000c;
+    public static final int keylines=0x7f030011;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int layoutManager=0x7f030012;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_anchor=0x7f03000d;
+    public static final int layout_anchor=0x7f030013;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -138,12 +176,12 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_anchorGravity=0x7f03000e;
+    public static final int layout_anchorGravity=0x7f030014;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_behavior=0x7f03000f;
+    public static final int layout_behavior=0x7f030015;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -161,7 +199,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_dodgeInsetEdges=0x7f030010;
+    public static final int layout_dodgeInsetEdges=0x7f030016;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -178,11 +216,25 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_insetEdge=0x7f030011;
+    public static final int layout_insetEdge=0x7f030017;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_keyline=0x7f030012;
+    public static final int layout_keyline=0x7f030018;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int reverseLayout=0x7f030019;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int spanCount=0x7f03001a;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int stackFromEnd=0x7f03001b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -192,7 +244,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarBackground=0x7f030013;
+    public static final int statusBarBackground=0x7f03001c;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f040000;
@@ -294,30 +346,36 @@ public final class R {
     public static final int content_padding=0x7f06001b;
     public static final int default_circle_indicator_radius=0x7f06001c;
     public static final int default_circle_indicator_stroke_width=0x7f06001d;
-    public static final int home_extrance_title_size=0x7f06001e;
-    public static final int notification_action_icon_size=0x7f06001f;
-    public static final int notification_action_text_size=0x7f060020;
-    public static final int notification_big_circle_margin=0x7f060021;
-    public static final int notification_content_margin_start=0x7f060022;
-    public static final int notification_large_icon_height=0x7f060023;
-    public static final int notification_large_icon_width=0x7f060024;
-    public static final int notification_main_column_padding_top=0x7f060025;
-    public static final int notification_media_narrow_margin=0x7f060026;
-    public static final int notification_right_icon_size=0x7f060027;
-    public static final int notification_right_side_padding_top=0x7f060028;
-    public static final int notification_small_icon_background_padding=0x7f060029;
-    public static final int notification_small_icon_size_as_large=0x7f06002a;
-    public static final int notification_subtext_size=0x7f06002b;
-    public static final int notification_top_pad=0x7f06002c;
-    public static final int notification_top_pad_large_text=0x7f06002d;
-    public static final int one_px=0x7f06002e;
-    public static final int restaurant_icon_size=0x7f06002f;
-    public static final int submit_text_size=0x7f060030;
-    public static final int third_icon_size=0x7f060031;
-    public static final int title_button_height=0x7f060032;
-    public static final int title_height=0x7f060033;
-    public static final int title_rightButton_padding=0x7f060034;
-    public static final int title_text_size=0x7f060035;
+    public static final int fastscroll_default_thickness=0x7f06001e;
+    public static final int fastscroll_margin=0x7f06001f;
+    public static final int fastscroll_minimum_range=0x7f060020;
+    public static final int home_extrance_title_size=0x7f060021;
+    public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f060022;
+    public static final int item_touch_helper_swipe_escape_max_velocity=0x7f060023;
+    public static final int item_touch_helper_swipe_escape_velocity=0x7f060024;
+    public static final int notification_action_icon_size=0x7f060025;
+    public static final int notification_action_text_size=0x7f060026;
+    public static final int notification_big_circle_margin=0x7f060027;
+    public static final int notification_content_margin_start=0x7f060028;
+    public static final int notification_large_icon_height=0x7f060029;
+    public static final int notification_large_icon_width=0x7f06002a;
+    public static final int notification_main_column_padding_top=0x7f06002b;
+    public static final int notification_media_narrow_margin=0x7f06002c;
+    public static final int notification_right_icon_size=0x7f06002d;
+    public static final int notification_right_side_padding_top=0x7f06002e;
+    public static final int notification_small_icon_background_padding=0x7f06002f;
+    public static final int notification_small_icon_size_as_large=0x7f060030;
+    public static final int notification_subtext_size=0x7f060031;
+    public static final int notification_top_pad=0x7f060032;
+    public static final int notification_top_pad_large_text=0x7f060033;
+    public static final int one_px=0x7f060034;
+    public static final int restaurant_icon_size=0x7f060035;
+    public static final int submit_text_size=0x7f060036;
+    public static final int third_icon_size=0x7f060037;
+    public static final int title_button_height=0x7f060038;
+    public static final int title_height=0x7f060039;
+    public static final int title_rightButton_padding=0x7f06003a;
+    public static final int title_text_size=0x7f06003b;
   }
   public static final class drawable {
     public static final int abc_ic_ab_back_holo_dark=0x7f070000;
@@ -574,850 +632,855 @@ public final class R {
     public static final int center=0x7f080085;
     public static final int center_horizontal=0x7f080086;
     public static final int center_vertical=0x7f080087;
-    public static final int check_new_version_icon=0x7f080088;
-    public static final int checkbox=0x7f080089;
-    public static final int chronometer=0x7f08008a;
-    public static final int clear_pic_cache=0x7f08008b;
-    public static final int clip_horizontal=0x7f08008c;
-    public static final int clip_vertical=0x7f08008d;
-    public static final int clock_time=0x7f08008e;
-    public static final int clock_time_indicator=0x7f08008f;
-    public static final int commend_list=0x7f080090;
-    public static final int commend_time=0x7f080091;
-    public static final int commend_user_name=0x7f080092;
-    public static final int content_container=0x7f080093;
-    public static final int content_loading_layout=0x7f080094;
-    public static final int content_loading_progressbar=0x7f080095;
-    public static final int copyright=0x7f080096;
-    public static final int credits_icon=0x7f080097;
-    public static final int credits_msg=0x7f080098;
-    public static final int credits_title=0x7f080099;
-    public static final int crop_cancel=0x7f08009a;
-    public static final int crop_ok=0x7f08009b;
-    public static final int current_address=0x7f08009c;
-    public static final int current_zone=0x7f08009d;
-    public static final int default_activity_button=0x7f08009e;
-    public static final int deliver_address_container=0x7f08009f;
-    public static final int deliver_address_dialog_fragment_container=0x7f0800a0;
-    public static final int deliver_address_fragment_container=0x7f0800a1;
-    public static final int deliver_address_hint=0x7f0800a2;
-    public static final int deliver_address_history_list=0x7f0800a3;
-    public static final int deliver_address_indicator=0x7f0800a4;
-    public static final int deliver_address_locating=0x7f0800a5;
-    public static final int deliver_address_locction_icon=0x7f0800a6;
-    public static final int deliver_address_name=0x7f0800a7;
-    public static final int deliver_address_phone=0x7f0800a8;
-    public static final int deliver_address_phone_bk=0x7f0800a9;
-    public static final int deliver_address_phone_bk_icon=0x7f0800aa;
-    public static final int deliver_address_submit=0x7f0800ab;
-    public static final int deliver_address_view=0x7f0800ac;
-    public static final int description=0x7f0800ad;
-    public static final int description_view=0x7f0800ae;
-    public static final int dialog_main_title=0x7f0800af;
-    public static final int dialog_sub_title=0x7f0800b0;
-    public static final int dianping_head=0x7f0800b1;
-    public static final int drawer_about_content=0x7f0800b2;
-    public static final int drawer_footer=0x7f0800b3;
-    public static final int drawer_gift_content=0x7f0800b4;
-    public static final int drawer_header=0x7f0800b5;
-    public static final int drawer_invitation_content=0x7f0800b6;
-    public static final int drawer_layout=0x7f0800b7;
-    public static final int drawer_main_content=0x7f0800b8;
-    public static final int drawer_menu_fragment=0x7f0800b9;
-    public static final int drawer_order_content=0x7f0800ba;
-    public static final int easy_edit_text=0x7f0800bb;
-    public static final int easy_edit_text_clear=0x7f0800bc;
-    public static final int edit_query=0x7f0800bd;
-    public static final int edit_view=0x7f0800be;
-    public static final int email_setting=0x7f0800bf;
-    public static final int email_setting_message=0x7f0800c0;
-    public static final int end=0x7f0800c1;
-    public static final int end_padder=0x7f0800c2;
-    public static final int entrance_container=0x7f0800c3;
-    public static final int error_notice_button1=0x7f0800c4;
-    public static final int error_notice_button2=0x7f0800c5;
-    public static final int et_login_password=0x7f0800c6;
-    public static final int et_login_username=0x7f0800c7;
-    public static final int et_regist_email=0x7f0800c8;
-    public static final int et_regist_password=0x7f0800c9;
-    public static final int et_regist_password_confirm=0x7f0800ca;
-    public static final int et_regist_username=0x7f0800cb;
-    public static final int exit_confirm_cancel=0x7f0800cc;
-    public static final int exit_confirm_ok=0x7f0800cd;
-    public static final int expand_activities_button=0x7f0800ce;
-    public static final int expanded_menu=0x7f0800cf;
-    public static final int expired_hours=0x7f0800d0;
-    public static final int expired_minutes_seconds=0x7f0800d1;
-    public static final int feedback_et=0x7f0800d2;
-    public static final int feedback_loading=0x7f0800d3;
-    public static final int fill=0x7f0800d4;
-    public static final int fill_horizontal=0x7f0800d5;
-    public static final int fill_space_view=0x7f0800d6;
-    public static final int fill_vertical=0x7f0800d7;
-    public static final int filter_container=0x7f0800d8;
-    public static final int flavor_filter_cancel=0x7f0800d9;
-    public static final int flavor_filter_ok=0x7f0800da;
-    public static final int flavor_filter_wheel1=0x7f0800db;
-    public static final int flavor_filter_wheel2=0x7f0800dc;
-    public static final int flavor_tab_clickable_indicator=0x7f0800dd;
-    public static final int food_add_to_cart=0x7f0800de;
-    public static final int food_amount=0x7f0800df;
-    public static final int food_arrow=0x7f0800e0;
-    public static final int food_camera_guide_text=0x7f0800e1;
-    public static final int food_car=0x7f0800e2;
-    public static final int food_cart_bottom=0x7f0800e3;
-    public static final int food_cart_item=0x7f0800e4;
-    public static final int food_cart_list=0x7f0800e5;
-    public static final int food_cart_note=0x7f0800e6;
-    public static final int food_cart_note_content=0x7f0800e7;
-    public static final int food_cart_operate=0x7f0800e8;
-    public static final int food_cart_order=0x7f0800e9;
-    public static final int food_cart_top=0x7f0800ea;
-    public static final int food_classify_list=0x7f0800eb;
-    public static final int food_comment_list=0x7f0800ec;
-    public static final int food_comment_list_item_msg=0x7f0800ed;
-    public static final int food_comment_list_item_rate=0x7f0800ee;
-    public static final int food_comment_list_item_time=0x7f0800ef;
-    public static final int food_comment_list_item_user_name=0x7f0800f0;
-    public static final int food_container=0x7f0800f1;
-    public static final int food_cost=0x7f0800f2;
-    public static final int food_count=0x7f0800f3;
-    public static final int food_cover_summary_container=0x7f0800f4;
-    public static final int food_detail_description=0x7f0800f5;
-    public static final int food_detail_favor=0x7f0800f6;
-    public static final int food_detail_image=0x7f0800f7;
-    public static final int food_detail_image_text=0x7f0800f8;
-    public static final int food_detail_name=0x7f0800f9;
-    public static final int food_detail_rating_bar=0x7f0800fa;
-    public static final int food_divider=0x7f0800fb;
-    public static final int food_fading_price=0x7f0800fc;
-    public static final int food_filter_list_item_icon=0x7f0800fd;
-    public static final int food_filter_list_item_text=0x7f0800fe;
-    public static final int food_flying_price=0x7f0800ff;
-    public static final int food_image=0x7f080100;
-    public static final int food_image_animation=0x7f080101;
-    public static final int food_image_container=0x7f080102;
-    public static final int food_image_mask=0x7f080103;
-    public static final int food_indicator=0x7f080104;
-    public static final int food_infor=0x7f080105;
-    public static final int food_intro=0x7f080106;
-    public static final int food_list=0x7f080107;
-    public static final int food_list_arrow=0x7f080108;
-    public static final int food_list_container=0x7f080109;
-    public static final int food_list_fragment_container=0x7f08010a;
-    public static final int food_list_icon_container=0x7f08010b;
-    public static final int food_list_item_add_button_container=0x7f08010c;
-    public static final int food_list_item_add_view=0x7f08010d;
-    public static final int food_list_item_add_view_container=0x7f08010e;
-    public static final int food_list_item_description=0x7f08010f;
-    public static final int food_list_item_favor=0x7f080110;
-    public static final int food_list_item_minus=0x7f080111;
-    public static final int food_list_item_name=0x7f080112;
-    public static final int food_list_item_name_container=0x7f080113;
-    public static final int food_list_item_price=0x7f080114;
-    public static final int food_list_item_price_text_view=0x7f080115;
-    public static final int food_list_item_promotion_description=0x7f080116;
-    public static final int food_list_item_promotion_icon=0x7f080117;
-    public static final int food_list_item_rate=0x7f080118;
-    public static final int food_list_item_rate_container=0x7f080119;
-    public static final int food_list_item_rating=0x7f08011a;
-    public static final int food_list_item_sales=0x7f08011b;
-    public static final int food_list_item_section_description=0x7f08011c;
-    public static final int food_list_item_section_promotion=0x7f08011d;
-    public static final int food_list_item_size=0x7f08011e;
-    public static final int food_list_order_cart=0x7f08011f;
-    public static final int food_list_order_state=0x7f080120;
-    public static final int food_list_shipping_fee=0x7f080121;
-    public static final int food_list_take_order_button=0x7f080122;
-    public static final int food_list_wrapper=0x7f080123;
-    public static final int food_message=0x7f080124;
-    public static final int food_name=0x7f080125;
-    public static final int food_operation_bar=0x7f080126;
-    public static final int food_operation_container=0x7f080127;
-    public static final int food_price=0x7f080128;
-    public static final int food_quantity=0x7f080129;
-    public static final int food_rating=0x7f08012a;
-    public static final int food_rating_bar=0x7f08012b;
-    public static final int food_rating_btn=0x7f08012c;
-    public static final int food_rating_commed=0x7f08012d;
-    public static final int food_rating_comment=0x7f08012e;
-    public static final int food_rating_default_image_container=0x7f08012f;
-    public static final int food_rating_detail_image_msg=0x7f080130;
-    public static final int food_rating_image_loading=0x7f080131;
-    public static final int food_rating_list=0x7f080132;
-    public static final int food_rating_msg=0x7f080133;
-    public static final int food_rating_prompt=0x7f080134;
-    public static final int food_rating_prompt_text=0x7f080135;
-    public static final int food_rating_starts=0x7f080136;
-    public static final int food_rating_status=0x7f080137;
-    public static final int food_rating_submit=0x7f080138;
-    public static final int food_rating_text=0x7f080139;
-    public static final int food_rating_upload_photo=0x7f08013a;
-    public static final int food_score=0x7f08013b;
-    public static final int food_search_list=0x7f08013c;
-    public static final int food_search_no_result=0x7f08013d;
-    public static final int food_size_cancel=0x7f08013e;
-    public static final int food_size_ok=0x7f08013f;
-    public static final int food_size_title=0x7f080140;
-    public static final int food_size_wheel=0x7f080141;
-    public static final int food_sold_out=0x7f080142;
-    public static final int food_title=0x7f080143;
-    public static final int food_total_price=0x7f080144;
-    public static final int food_total_prices=0x7f080145;
-    public static final int food_ugc_cover=0x7f080146;
-    public static final int food_ugc_cover_view=0x7f080147;
-    public static final int food_ugc_image=0x7f080148;
-    public static final int food_ugc_image_cerated_at_day=0x7f080149;
-    public static final int food_ugc_image_cerated_at_des=0x7f08014a;
-    public static final int food_ugc_image_cerated_at_month=0x7f08014b;
-    public static final int food_ugc_image_devider=0x7f08014c;
-    public static final int food_ugc_image_number=0x7f08014d;
-    public static final int food_ugc_image_restaurant_name=0x7f08014e;
-    public static final int food_ugc_image_share=0x7f08014f;
-    public static final int forever=0x7f080150;
-    public static final int form_address=0x7f080151;
-    public static final int form_name=0x7f080152;
-    public static final int form_note=0x7f080153;
-    public static final int form_phone=0x7f080154;
-    public static final int form_submit=0x7f080155;
-    public static final int fragment_camera_content_fragment=0x7f080156;
-    public static final int fragment_confirm_cart=0x7f080157;
-    public static final int fragment_container=0x7f080158;
-    public static final int fragment_deliver_address_provider=0x7f080159;
-    public static final int fragment_deliver_address_provider_container=0x7f08015a;
-    public static final int fragment_deliver_time_container=0x7f08015b;
-    public static final int fragment_invitation=0x7f08015c;
-    public static final int fragment_invoice_container=0x7f08015d;
-    public static final int fragment_payment_verify_phone_sms_code=0x7f08015e;
-    public static final int fragment_remarks_container=0x7f08015f;
-    public static final int fragment_selection=0x7f080160;
-    public static final int fragment_selection_msg=0x7f080161;
-    public static final int fragment_selection_title=0x7f080162;
-    public static final int gift_content=0x7f080163;
-    public static final int gift_default_image_container=0x7f080164;
-    public static final int gift_description=0x7f080165;
-    public static final int gift_detail_description=0x7f080166;
-    public static final int gift_detail_exchange=0x7f080167;
-    public static final int gift_detail_image=0x7f080168;
-    public static final int gift_detail_point=0x7f080169;
-    public static final int gift_detail_point_container=0x7f08016a;
-    public static final int gift_detail_title=0x7f08016b;
-    public static final int gift_head=0x7f08016c;
-    public static final int gift_list=0x7f08016d;
-    public static final int gift_list_fragment=0x7f08016e;
-    public static final int gift_list_item_icon=0x7f08016f;
-    public static final int gift_name=0x7f080170;
-    public static final int goto_cart=0x7f080171;
-    public static final int goto_exchange_gift=0x7f080172;
-    public static final int goto_order_camera_activity=0x7f080173;
-    public static final int goto_order_detail=0x7f080174;
-    public static final int goto_restaurant_menu=0x7f080175;
-    public static final int gpuimage=0x7f080176;
-    public static final int grid_view_food_ugc_image_cover=0x7f080177;
-    public static final int guide_viewpager=0x7f080178;
-    public static final int half_transparent_mask=0x7f080179;
-    public static final int header=0x7f08017a;
-    public static final int history_address_arrow=0x7f08017b;
-    public static final int history_deliver_address=0x7f08017c;
-    public static final int history_deliver_address_title=0x7f08017d;
-    public static final int hitory_address=0x7f08017e;
-    public static final int hitory_address_arrow=0x7f08017f;
-    public static final int hlistview_top=0x7f080180;
-    public static final int home=0x7f080181;
-    public static final int home_action_bar_address_action=0x7f080182;
-    public static final int home_action_bar_current_address_text_view=0x7f080183;
-    public static final int home_action_bar_custom_view=0x7f080184;
-    public static final int home_action_bar_custom_view_loading=0x7f080185;
-    public static final int home_action_bar_search_icon=0x7f080186;
-    public static final int home_activity_content_container=0x7f080187;
-    public static final int home_fl_avatar=0x7f080188;
-    public static final int home_head=0x7f080189;
-    public static final int home_iv_avatar=0x7f08018a;
-    public static final int home_iv_book_meal_arrow=0x7f08018b;
-    public static final int home_iv_book_meal_icon=0x7f08018c;
-    public static final int home_iv_history_arrow=0x7f08018d;
-    public static final int home_iv_history_center_icon=0x7f08018e;
-    public static final int home_iv_order_meal_arrow=0x7f08018f;
-    public static final int home_iv_order_meal_icon=0x7f080190;
-    public static final int home_ll_book_meal=0x7f080191;
-    public static final int home_ll_history_center=0x7f080192;
-    public static final int home_ll_order_meal=0x7f080193;
-    public static final int home_ll_setting=0x7f080194;
-    public static final int home_menu_camera=0x7f080195;
-    public static final int home_menu_header_avatar=0x7f080196;
-    public static final int home_menu_header_balance=0x7f080197;
-    public static final int home_menu_header_point=0x7f080198;
-    public static final int home_menu_header_user_name=0x7f080199;
-    public static final int home_menu_root_view=0x7f08019a;
-    public static final int home_menu_user_center=0x7f08019b;
-    public static final int home_page_group_restaurants_header=0x7f08019c;
-    public static final int home_page_list_view=0x7f08019d;
-    public static final int home_pb_loading_point=0x7f08019e;
-    public static final int home_processing_number=0x7f08019f;
-    public static final int home_restaurant_flavor_filter_text_view=0x7f0801a0;
-    public static final int home_tv_book_meal=0x7f0801a1;
-    public static final int home_tv_history_center=0x7f0801a2;
-    public static final int home_tv_order_meal=0x7f0801a3;
-    public static final int home_tv_send_immediately=0x7f0801a4;
-    public static final int home_tv_user_name=0x7f0801a5;
-    public static final int home_tv_user_point=0x7f0801a6;
-    public static final int hot_food_list=0x7f0801a7;
-    public static final int hot_food_list_icon_container=0x7f0801a8;
-    public static final int hot_food_list_item_description=0x7f0801a9;
-    public static final int hot_food_list_item_food_container=0x7f0801aa;
-    public static final int hot_food_list_item_food_mask=0x7f0801ab;
-    public static final int hot_food_list_item_food_name=0x7f0801ac;
-    public static final int hot_food_list_item_rank=0x7f0801ad;
-    public static final int hot_food_list_item_rank_icon=0x7f0801ae;
-    public static final int hot_food_list_item_restaurant_container=0x7f0801af;
-    public static final int hot_food_list_item_restaurant_logo=0x7f0801b0;
-    public static final int hot_food_list_item_restaurant_name=0x7f0801b1;
-    public static final int hot_food_list_item_restaurant_status=0x7f0801b2;
-    public static final int hot_food_list_item_sales=0x7f0801b3;
-    public static final int icon=0x7f0801b4;
-    public static final int icon_group=0x7f0801b5;
-    public static final int icon_view=0x7f0801b6;
-    public static final int id_about_firm=0x7f0801b7;
-    public static final int id_about_us=0x7f0801b8;
-    public static final int id_coupon_text=0x7f0801b9;
-    public static final int id_editContactMethod=0x7f0801ba;
-    public static final int id_editProposal=0x7f0801bb;
-    public static final int id_invitation=0x7f0801bc;
-    public static final int id_makeProposal=0x7f0801bd;
-    public static final int id_offical_phone=0x7f0801be;
-    public static final int id_register_invite_help=0x7f0801bf;
-    public static final int id_register_no_net=0x7f0801c0;
-    public static final int id_shareTofriends=0x7f0801c1;
-    public static final int id_submit_coupon=0x7f0801c2;
-    public static final int id_submit_proposal=0x7f0801c3;
-    public static final int id_update=0x7f0801c4;
-    public static final int id_version=0x7f0801c5;
-    public static final int id_welcome=0x7f0801c6;
-    public static final int image=0x7f0801c7;
-    public static final int image_loading=0x7f0801c8;
-    public static final int image_view=0x7f0801c9;
-    public static final int imageview_above_more=0x7f0801ca;
-    public static final int img_capture_button=0x7f0801cb;
-    public static final int img_switch_camera=0x7f0801cc;
-    public static final int indicator=0x7f0801cd;
-    public static final int info=0x7f0801ce;
-    public static final int invitation_head=0x7f0801cf;
-    public static final int invitation_list_item=0x7f0801d0;
-    public static final int invitation_webview=0x7f0801d1;
-    public static final int invite_code=0x7f0801d2;
-    public static final int invite_help=0x7f0801d3;
-    public static final int invoice_add_title=0x7f0801d4;
-    public static final int invoice_infor_container=0x7f0801d5;
-    public static final int invoice_inform_list=0x7f0801d6;
-    public static final int invoice_item_container=0x7f0801d7;
-    public static final int invoice_item_indicator=0x7f0801d8;
-    public static final int invoice_item_name=0x7f0801d9;
-    public static final int italic=0x7f0801da;
-    public static final int item_delete=0x7f0801db;
-    public static final int item_name=0x7f0801dc;
-    public static final int item_price=0x7f0801dd;
-    public static final int item_size=0x7f0801de;
-    public static final int iv_head_left=0x7f0801df;
-    public static final int iv_home_head=0x7f0801e0;
-    public static final int iv_login=0x7f0801e1;
-    public static final int iv_photo=0x7f0801e2;
-    public static final int iv_regist_email=0x7f0801e3;
-    public static final int iv_regist_password=0x7f0801e4;
-    public static final int iv_regist_password_confirm=0x7f0801e5;
-    public static final int iv_regist_username=0x7f0801e6;
-    public static final int iv_welcome_text_shade=0x7f0801e7;
-    public static final int left=0x7f0801e8;
-    public static final int line1=0x7f0801e9;
-    public static final int line3=0x7f0801ea;
-    public static final int linear_above_toHome=0x7f0801eb;
-    public static final int list_item=0x7f0801ec;
-    public static final int list_restaurant_detail=0x7f0801ed;
-    public static final int list_view=0x7f0801ee;
-    public static final int list_view_food_ugc_image=0x7f0801ef;
-    public static final int ll=0x7f0801f0;
-    public static final int ll_login_panel=0x7f0801f1;
-    public static final int ll_login_panel_edit=0x7f0801f2;
-    public static final int ll_regist_panel_edit=0x7f0801f3;
-    public static final int loading=0x7f0801f4;
-    public static final int loading_arrow=0x7f0801f5;
-    public static final int loading_layout=0x7f0801f6;
-    public static final int loading_msg=0x7f0801f7;
-    public static final int loading_next=0x7f0801f8;
-    public static final int loading_progress=0x7f0801f9;
-    public static final int loading_text=0x7f0801fa;
-    public static final int loading_view=0x7f0801fb;
-    public static final int login_action=0x7f0801fc;
-    public static final int login_by_other_way=0x7f0801fd;
-    public static final int login_by_third_party_fragment=0x7f0801fe;
-    public static final int login_dialog=0x7f0801ff;
-    public static final int login_field=0x7f080200;
-    public static final int login_loading=0x7f080201;
-    public static final int login_name=0x7f080202;
-    public static final int login_password=0x7f080203;
-    public static final int login_registe_button=0x7f080204;
-    public static final int login_submit=0x7f080205;
-    public static final int logout=0x7f080206;
-    public static final int main_content=0x7f080207;
-    public static final int main_content_title_fragment_container=0x7f080208;
-    public static final int make_order=0x7f080209;
-    public static final int make_order_fragment=0x7f08020a;
-    public static final int media_actions=0x7f08020b;
-    public static final int menu_container=0x7f08020c;
-    public static final int menu_icon=0x7f08020d;
-    public static final int menu_layout=0x7f08020e;
-    public static final int menu_message=0x7f08020f;
-    public static final int menu_title=0x7f080210;
-    public static final int message_view=0x7f080211;
-    public static final int mineList=0x7f080212;
-    public static final int minus_button_view=0x7f080213;
-    public static final int mobile_number=0x7f080214;
-    public static final int mobile_send_voice_code=0x7f080215;
-    public static final int mobile_sending_voice_code=0x7f080216;
-    public static final int mobile_setting=0x7f080217;
-    public static final int mobile_setting_message=0x7f080218;
-    public static final int mobile_validation_code=0x7f080219;
-    public static final int mobile_validation_send_code=0x7f08021a;
-    public static final int modify_user_name=0x7f08021b;
-    public static final int more=0x7f08021c;
-    public static final int msg=0x7f08021d;
-    public static final int name=0x7f08021e;
-    public static final int navigation_bar=0x7f08021f;
-    public static final int navigation_bar_left_button_wrapper=0x7f080220;
-    public static final int navigation_bar_right_button_wrapper=0x7f080221;
-    public static final int navigation_bar_title_wrapper=0x7f080222;
-    public static final int navigation_btn_goback=0x7f080223;
-    public static final int navigation_btn_right=0x7f080224;
-    public static final int navigation_title=0x7f080225;
-    public static final int new_password=0x7f080226;
-    public static final int new_password_again=0x7f080227;
-    public static final int new_version_icon=0x7f080228;
-    public static final int no_camera_food_item=0x7f080229;
-    public static final int no_food=0x7f08022a;
-    public static final int no_restaurant=0x7f08022b;
-    public static final int none=0x7f08022c;
-    public static final int normal=0x7f08022d;
-    public static final int not_use_red_envelope_button=0x7f08022e;
-    public static final int notification_background=0x7f08022f;
-    public static final int notification_icon=0x7f080230;
-    public static final int notification_main_column=0x7f080231;
-    public static final int notification_main_column_container=0x7f080232;
-    public static final int notification_mesg=0x7f080233;
-    public static final int notification_num=0x7f080234;
-    public static final int notification_setting=0x7f080235;
-    public static final int notification_switch=0x7f080236;
-    public static final int old_password=0x7f080237;
-    public static final int online_paymethod_amount=0x7f080238;
-    public static final int online_paymethod_checkbox=0x7f080239;
-    public static final int online_paymethod_container=0x7f08023a;
-    public static final int online_paymethod_content=0x7f08023b;
-    public static final int online_paymethod_icon=0x7f08023c;
-    public static final int online_paymethod_msg=0x7f08023d;
-    public static final int online_paymethod_name=0x7f08023e;
-    public static final int operation_bar=0x7f08023f;
-    public static final int operation_bar_add=0x7f080240;
-    public static final int operation_bar_delete=0x7f080241;
-    public static final int operation_bar_favor=0x7f080242;
-    public static final int operation_bar_minus=0x7f080243;
-    public static final int operation_bar_num=0x7f080244;
-    public static final int order_address=0x7f080245;
-    public static final int order_address_btn=0x7f080246;
-    public static final int order_address_item=0x7f080247;
-    public static final int order_address_text=0x7f080248;
-    public static final int order_confirmed_but_undeliver=0x7f080249;
-    public static final int order_coupon=0x7f08024a;
-    public static final int order_detail_activity_content_container=0x7f08024b;
-    public static final int order_detail_btton_1=0x7f08024c;
-    public static final int order_detail_btton_2=0x7f08024d;
-    public static final int order_detail_button_container=0x7f08024e;
-    public static final int order_detail_content=0x7f08024f;
-    public static final int order_detail_food_amount=0x7f080250;
-    public static final int order_detail_food_count=0x7f080251;
-    public static final int order_detail_food_list=0x7f080252;
-    public static final int order_detail_food_list_item_name=0x7f080253;
-    public static final int order_detail_food_list_item_price=0x7f080254;
-    public static final int order_detail_food_list_item_size=0x7f080255;
-    public static final int order_detail_food_name=0x7f080256;
-    public static final int order_detail_food_price=0x7f080257;
-    public static final int order_detail_food_size=0x7f080258;
-    public static final int order_detail_food_total=0x7f080259;
-    public static final int order_detail_fragment_container=0x7f08025a;
-    public static final int order_detail_header_fragment_container=0x7f08025b;
-    public static final int order_detail_header_fragment_devider=0x7f08025c;
-    public static final int order_detail_information_item_name=0x7f08025d;
-    public static final int order_detail_information_list=0x7f08025e;
-    public static final int order_detail_list=0x7f08025f;
-    public static final int order_detail_msg=0x7f080260;
-    public static final int order_detail_note=0x7f080261;
-    public static final int order_detail_order_cost=0x7f080262;
-    public static final int order_detail_remarks_content=0x7f080263;
-    public static final int order_detail_restaurant=0x7f080264;
-    public static final int order_detail_restaurant_logo=0x7f080265;
-    public static final int order_detail_restaurant_name=0x7f080266;
-    public static final int order_detail_state_msg=0x7f080267;
-    public static final int order_detail_state_title=0x7f080268;
-    public static final int order_detail_status=0x7f080269;
-    public static final int order_divider1=0x7f08026a;
-    public static final int order_error_content=0x7f08026b;
-    public static final int order_error_no_history_order=0x7f08026c;
-    public static final int order_head=0x7f08026d;
-    public static final int order_history_address=0x7f08026e;
-    public static final int order_history_address_list=0x7f08026f;
-    public static final int order_history_list=0x7f080270;
-    public static final int order_history_list_item_msg=0x7f080271;
-    public static final int order_history_list_item_restaurant_logo=0x7f080272;
-    public static final int order_history_list_item_restaurant_name=0x7f080273;
-    public static final int order_history_list_item_state=0x7f080274;
-    public static final int order_id=0x7f080275;
-    public static final int order_infor=0x7f080276;
-    public static final int order_item_comments=0x7f080277;
-    public static final int order_item_list_view=0x7f080278;
-    public static final int order_item_msg=0x7f080279;
-    public static final int order_item_number=0x7f08027a;
-    public static final int order_item_restaurant_icon=0x7f08027b;
-    public static final int order_item_restaurant_icon_wrapper=0x7f08027c;
-    public static final int order_item_restaurant_name=0x7f08027d;
-    public static final int order_item_status_bg=0x7f08027e;
-    public static final int order_item_stauts=0x7f08027f;
-    public static final int order_item_time=0x7f080280;
-    public static final int order_list=0x7f080281;
-    public static final int order_locked=0x7f080282;
-    public static final int order_pay_note=0x7f080283;
-    public static final int order_phone=0x7f080284;
-    public static final int order_phone_bk=0x7f080285;
-    public static final int order_rating_food_list_item_image=0x7f080286;
-    public static final int order_rating_food_list_item_name=0x7f080287;
-    public static final int order_rating_food_list_item_rating_indicator=0x7f080288;
-    public static final int order_remarks_msg=0x7f080289;
-    public static final int order_remarks_submit=0x7f08028a;
-    public static final int order_use_coupon_arrow=0x7f08028b;
-    public static final int order_use_coupon_textview=0x7f08028c;
-    public static final int order_use_coupon_value=0x7f08028d;
-    public static final int ordering_members=0x7f08028e;
-    public static final int origin_price=0x7f08028f;
-    public static final int pager_indicator=0x7f080290;
-    public static final int participate_in_activities_but_not_offer=0x7f080291;
-    public static final int password=0x7f080292;
-    public static final int password_setting=0x7f080293;
-    public static final int password_setting_message=0x7f080294;
-    public static final int pay=0x7f080295;
-    public static final int pay_ali=0x7f080296;
-    public static final int pay_by_balance=0x7f080297;
-    public static final int pay_online_balance=0x7f080298;
-    public static final int pay_online_balance_amount=0x7f080299;
-    public static final int pay_online_by_balance=0x7f08029a;
-    public static final int pay_online_password=0x7f08029b;
-    public static final int pay_online_user_red_envelope=0x7f08029c;
-    public static final int pay_online_user_red_envelope_title=0x7f08029d;
-    public static final int pay_verify=0x7f08029e;
-    public static final int payment_phone_verification_code_edit_text=0x7f08029f;
-    public static final int payment_quata_setting=0x7f0802a0;
-    public static final int payment_quata_setting_message=0x7f0802a1;
-    public static final int payment_total_amount=0x7f0802a2;
-    public static final int payment_type_fragment_container=0x7f0802a3;
-    public static final int payment_type_limit=0x7f0802a4;
-    public static final int payment_type_limit_send=0x7f0802a5;
-    public static final int payment_verify_login_password_container=0x7f0802a6;
-    public static final int paymethod_checkbox=0x7f0802a7;
-    public static final int paymethod_container=0x7f0802a8;
-    public static final int paymethod_content=0x7f0802a9;
-    public static final int paymethod_msg=0x7f0802aa;
-    public static final int paymethod_name=0x7f0802ab;
-    public static final int paymethod_promotions=0x7f0802ac;
-    public static final int pb_regist_username_check_loading=0x7f0802ad;
-    public static final int phone_action=0x7f0802ae;
-    public static final int photo_del=0x7f0802af;
-    public static final int photo_ok=0x7f0802b0;
-    public static final int photo_optimize=0x7f0802b1;
-    public static final int photo_optimzing_view=0x7f0802b2;
-    public static final int pic_quality_without_wifi=0x7f0802b3;
-    public static final int popup_background_left=0x7f0802b4;
-    public static final int popup_background_right=0x7f0802b5;
-    public static final int popup_background_text=0x7f0802b6;
-    public static final int processing_camera_num=0x7f0802b7;
-    public static final int progress_circular=0x7f0802b8;
-    public static final int progress_horizontal=0x7f0802b9;
-    public static final int promotion_description=0x7f0802ba;
-    public static final int promotion_empty=0x7f0802bb;
-    public static final int promotion_icon=0x7f0802bc;
-    public static final int promotion_icon_indicator=0x7f0802bd;
-    public static final int promotion_icon_iv=0x7f0802be;
-    public static final int promotion_loading=0x7f0802bf;
-    public static final int promotion_msg=0x7f0802c0;
-    public static final int promotion_pop_window_list=0x7f0802c1;
-    public static final int promotion_tab_clickable_indicator=0x7f0802c2;
-    public static final int promotion_text=0x7f0802c3;
-    public static final int promotion_title=0x7f0802c4;
-    public static final int pull_container=0x7f0802c5;
-    public static final int pull_note=0x7f0802c6;
-    public static final int pull_refresh_layout=0x7f0802c7;
-    public static final int pull_refresh_list_view_background_view=0x7f0802c8;
-    public static final int quota_amount=0x7f0802c9;
-    public static final int quota_next=0x7f0802ca;
-    public static final int radio=0x7f0802cb;
-    public static final int rating_text=0x7f0802cc;
-    public static final int rating_time=0x7f0802cd;
-    public static final int red_envelope_amount=0x7f0802ce;
-    public static final int red_envelope_bg=0x7f0802cf;
-    public static final int red_envelope_msg=0x7f0802d0;
-    public static final int red_envelope_name=0x7f0802d1;
-    public static final int redenvelopes_content=0x7f0802d2;
-    public static final int redenvelopes_list=0x7f0802d3;
-    public static final int refreshable_list_arrow=0x7f0802d4;
-    public static final int refreshable_list_header=0x7f0802d5;
-    public static final int refreshable_list_progress=0x7f0802d6;
-    public static final int refreshable_list_text=0x7f0802d7;
-    public static final int remark_button_1=0x7f0802d8;
-    public static final int remark_button_2=0x7f0802d9;
-    public static final int remark_button_3=0x7f0802da;
-    public static final int remark_button_4=0x7f0802db;
-    public static final int remark_button_5=0x7f0802dc;
-    public static final int remark_button_6=0x7f0802dd;
-    public static final int remark_scollView=0x7f0802de;
-    public static final int remarks=0x7f0802df;
-    public static final int remarks_content=0x7f0802e0;
-    public static final int remarks_editText=0x7f0802e1;
-    public static final int remarks_scrollView=0x7f0802e2;
-    public static final int renren_login=0x7f0802e3;
-    public static final int renren_setting=0x7f0802e4;
-    public static final int renren_setting_message=0x7f0802e5;
-    public static final int report_other=0x7f0802e6;
-    public static final int report_other_message=0x7f0802e7;
-    public static final int report_restaurant=0x7f0802e8;
-    public static final int reported_view=0x7f0802e9;
-    public static final int restauant_detail_rating_bar_container=0x7f0802ea;
-    public static final int restaurant_address=0x7f0802eb;
-    public static final int restaurant_book_only=0x7f0802ec;
-    public static final int restaurant_bottom=0x7f0802ed;
-    public static final int restaurant_content_container=0x7f0802ee;
-    public static final int restaurant_detail_business_hours=0x7f0802ef;
-    public static final int restaurant_detail_favor=0x7f0802f0;
-    public static final int restaurant_detail_header=0x7f0802f1;
-    public static final int restaurant_detail_header_msg_data=0x7f0802f2;
-    public static final int restaurant_detail_header_msg_title=0x7f0802f3;
-    public static final int restaurant_detail_icons_container=0x7f0802f4;
-    public static final int restaurant_detail_intro=0x7f0802f5;
-    public static final int restaurant_detail_location=0x7f0802f6;
-    public static final int restaurant_detail_logo=0x7f0802f7;
-    public static final int restaurant_detail_msg_divider=0x7f0802f8;
-    public static final int restaurant_detail_name=0x7f0802f9;
-    public static final int restaurant_detail_promotion_info=0x7f0802fa;
-    public static final int restaurant_detail_rate_numbers=0x7f0802fb;
-    public static final int restaurant_detail_rating_bar=0x7f0802fc;
-    public static final int restaurant_filter_fragment=0x7f0802fd;
-    public static final int restaurant_head=0x7f0802fe;
-    public static final int restaurant_info_coupon=0x7f0802ff;
-    public static final int restaurant_info_first_section=0x7f080300;
-    public static final int restaurant_info_no_icon=0x7f080301;
-    public static final int restaurant_infor_detail=0x7f080302;
-    public static final int restaurant_infor_frame=0x7f080303;
-    public static final int restaurant_infor_icon=0x7f080304;
-    public static final int restaurant_infor_icons=0x7f080305;
-    public static final int restaurant_infor_name=0x7f080306;
-    public static final int restaurant_infor_notice=0x7f080307;
-    public static final int restaurant_infor_rating=0x7f080308;
-    public static final int restaurant_infor_score=0x7f080309;
-    public static final int restaurant_list=0x7f08030a;
-    public static final int restaurant_list_arrow=0x7f08030b;
-    public static final int restaurant_list_item_arrow=0x7f08030c;
-    public static final int restaurant_list_item_avaiable=0x7f08030d;
-    public static final int restaurant_list_item_buynums=0x7f08030e;
-    public static final int restaurant_list_item_coupon=0x7f08030f;
-    public static final int restaurant_list_item_favor=0x7f080310;
-    public static final int restaurant_list_item_first_promotion=0x7f080311;
-    public static final int restaurant_list_item_first_promotion_icon=0x7f080312;
-    public static final int restaurant_list_item_icon=0x7f080313;
-    public static final int restaurant_list_item_limit=0x7f080314;
-    public static final int restaurant_list_item_logo=0x7f080315;
-    public static final int restaurant_list_item_mask=0x7f080316;
-    public static final int restaurant_list_item_more_promotion=0x7f080317;
-    public static final int restaurant_list_item_more_promotion_container=0x7f080318;
-    public static final int restaurant_list_item_msg=0x7f080319;
-    public static final int restaurant_list_item_name=0x7f08031a;
-    public static final int restaurant_list_item_present_promotion_container=0x7f08031b;
-    public static final int restaurant_list_item_promotion_container=0x7f08031c;
-    public static final int restaurant_list_item_rate=0x7f08031d;
-    public static final int restaurant_list_item_rate_numbers=0x7f08031e;
-    public static final int restaurant_list_item_rating=0x7f08031f;
-    public static final int restaurant_list_item_send_speed=0x7f080320;
-    public static final int restaurant_location=0x7f080321;
-    public static final int restaurant_logo=0x7f080322;
-    public static final int restaurant_name=0x7f080323;
-    public static final int restaurant_phone=0x7f080324;
-    public static final int restaurant_promotion_description=0x7f080325;
-    public static final int restaurant_promotion_icon=0x7f080326;
-    public static final int restaurant_promotions=0x7f080327;
-    public static final int restaurant_promotions_container=0x7f080328;
-    public static final int restaurant_rest=0x7f080329;
-    public static final int restaurant_search_list=0x7f08032a;
-    public static final int restaurant_search_list_view=0x7f08032b;
-    public static final int restaurant_search_loading=0x7f08032c;
-    public static final int restaurant_status_view=0x7f08032d;
-    public static final int restaurant_supports=0x7f08032e;
-    public static final int restaurant_supports_container=0x7f08032f;
-    public static final int restuarant_filter_list_item=0x7f080330;
-    public static final int restuarant_filter_list_item_indicator=0x7f080331;
-    public static final int restuarant_filter_list_item_text=0x7f080332;
-    public static final int resturant_infor_flavor=0x7f080333;
-    public static final int retaurant_search_no_result=0x7f080334;
-    public static final int right=0x7f080335;
-    public static final int right_icon=0x7f080336;
-    public static final int right_side=0x7f080337;
-    public static final int scroll_layout=0x7f080338;
-    public static final int scroll_view=0x7f080339;
-    public static final int search_action=0x7f08033a;
-    public static final int search_address_close=0x7f08033b;
-    public static final int search_address_confirm=0x7f08033c;
-    public static final int search_address_edit_text=0x7f08033d;
-    public static final int search_badge=0x7f08033e;
-    public static final int search_bar=0x7f08033f;
-    public static final int search_button=0x7f080340;
-    public static final int search_cancel=0x7f080341;
-    public static final int search_close_btn=0x7f080342;
-    public static final int search_content=0x7f080343;
-    public static final int search_content_wrapper=0x7f080344;
-    public static final int search_edit_frame=0x7f080345;
-    public static final int search_go_btn=0x7f080346;
-    public static final int search_icon=0x7f080347;
-    public static final int search_item_address=0x7f080348;
-    public static final int search_item_name=0x7f080349;
-    public static final int search_mag_icon=0x7f08034a;
-    public static final int search_plate=0x7f08034b;
-    public static final int search_src_text=0x7f08034c;
-    public static final int search_voice_btn=0x7f08034d;
-    public static final int search_voice_icon=0x7f08034e;
-    public static final int seekBar=0x7f08034f;
-    public static final int selected_indicator=0x7f080350;
-    public static final int send_sms_verification_code=0x7f080351;
-    public static final int send_voice_code=0x7f080352;
-    public static final int send_voice_verification_code=0x7f080353;
-    public static final int sending_voice_code=0x7f080354;
-    public static final int set_pic_quality_without_wifi=0x7f080355;
-    public static final int share_style=0x7f080356;
-    public static final int shopping_cart=0x7f080357;
-    public static final int shopping_cart_state_bar_content_view=0x7f080358;
-    public static final int shopping_cart_state_bar_fragment=0x7f080359;
-    public static final int short_name=0x7f08035a;
-    public static final int shortcut=0x7f08035b;
-    public static final int shutter=0x7f08035c;
-    public static final int slidingpane_content=0x7f08035d;
-    public static final int slidingpane_gift=0x7f08035e;
-    public static final int slidingpane_menu=0x7f08035f;
-    public static final int slidingpanellayout=0x7f080360;
-    public static final int sms_verification_view=0x7f080361;
-    public static final int sns_setting=0x7f080362;
-    public static final int sort_restaurant_text=0x7f080363;
-    public static final int sort_tab_clickable_indicator=0x7f080364;
-    public static final int splash_firm=0x7f080365;
-    public static final int split_action_bar=0x7f080366;
-    public static final int square_ayout=0x7f080367;
-    public static final int start=0x7f080368;
-    public static final int status_bar_latest_event_content=0x7f080369;
-    public static final int submit=0x7f08036a;
-    public static final int submit_area=0x7f08036b;
-    public static final int submit_report=0x7f08036c;
-    public static final int surfaceView=0x7f08036d;
-    public static final int swipe_refresh_widget=0x7f08036e;
-    public static final int tag_transition_group=0x7f08036f;
-    public static final int take_order_activity_content_container=0x7f080370;
-    public static final int take_order_submit=0x7f080371;
-    public static final int text=0x7f080372;
-    public static final int text2=0x7f080373;
-    public static final int third_party_login_dialog=0x7f080374;
-    public static final int third_party_login_title_for_hide=0x7f080375;
-    public static final int third_party_login_title_for_show=0x7f080376;
-    public static final int third_party_renren=0x7f080377;
-    public static final int third_party_sina=0x7f080378;
-    public static final int time=0x7f080379;
-    public static final int time_line_action=0x7f08037a;
-    public static final int time_line_confirm=0x7f08037b;
-    public static final int time_line_content=0x7f08037c;
-    public static final int time_line_content_pager=0x7f08037d;
-    public static final int time_line_content_pager_indicator=0x7f08037e;
-    public static final int time_line_item_bg_line=0x7f08037f;
-    public static final int time_line_item_icon=0x7f080380;
-    public static final int time_line_item_image=0x7f080381;
-    public static final int time_line_item_msg=0x7f080382;
-    public static final int time_line_item_msg2=0x7f080383;
-    public static final int time_line_item_restaurant=0x7f080384;
-    public static final int time_line_item_time=0x7f080385;
-    public static final int time_line_item_user=0x7f080386;
-    public static final int time_line_list=0x7f080387;
-    public static final int time_view=0x7f080388;
-    public static final int timeline=0x7f080389;
-    public static final int timeline_list=0x7f08038a;
-    public static final int timeline_loading=0x7f08038b;
-    public static final int title=0x7f08038c;
-    public static final int top=0x7f08038d;
-    public static final int top_action_bar=0x7f08038e;
-    public static final int tv_common_above_head=0x7f08038f;
-    public static final int tv_food_list_head=0x7f080390;
-    public static final int up=0x7f080391;
-    public static final int update_later=0x7f080392;
-    public static final int update_now=0x7f080393;
-    public static final int upload_avatar_btn_take_picture=0x7f080394;
-    public static final int use_coupon=0x7f080395;
-    public static final int use_coupon_delete=0x7f080396;
-    public static final int use_coupon_edit_text=0x7f080397;
-    public static final int use_coupon_number=0x7f080398;
-    public static final int use_coupon_submit=0x7f080399;
-    public static final int use_red_envelope_indicator=0x7f08039a;
-    public static final int use_red_envelopes_fragment=0x7f08039b;
-    public static final int user_avatar=0x7f08039c;
-    public static final int user_center_action_more_setting=0x7f08039d;
-    public static final int user_center_avatar=0x7f08039e;
-    public static final int user_center_balance=0x7f08039f;
-    public static final int user_center_bg=0x7f0803a0;
-    public static final int user_center_content_container=0x7f0803a1;
-    public static final int user_center_name=0x7f0803a2;
-    public static final int user_center_point=0x7f0803a3;
-    public static final int user_center_profile_container=0x7f0803a4;
-    public static final int user_center_red_envelopes=0x7f0803a5;
-    public static final int user_center_security_setting=0x7f0803a6;
-    public static final int user_comment_view=0x7f0803a7;
-    public static final int user_logo_container=0x7f0803a8;
-    public static final int user_name=0x7f0803a9;
-    public static final int user_place_loading=0x7f0803aa;
-    public static final int user_place_loading_progress=0x7f0803ab;
-    public static final int user_place_loading_text=0x7f0803ac;
-    public static final int username=0x7f0803ad;
-    public static final int v_translucence_background=0x7f0803ae;
-    public static final int verification_code=0x7f0803af;
-    public static final int version_discription=0x7f0803b0;
-    public static final int version_guide_indicator=0x7f0803b1;
-    public static final int version_guide_pager=0x7f0803b2;
-    public static final int version_name=0x7f0803b3;
-    public static final int version_size=0x7f0803b4;
-    public static final int version_time=0x7f0803b5;
-    public static final int viewPager=0x7f0803b6;
-    public static final int view_restaurant_comment=0x7f0803b7;
-    public static final int volley=0x7f0803b8;
-    public static final int vp=0x7f0803b9;
-    public static final int vp_tab_strip=0x7f0803ba;
-    public static final int web=0x7f0803bb;
-    public static final int webview=0x7f0803bc;
-    public static final int webview_common=0x7f0803bd;
-    public static final int webview_progressbar=0x7f0803be;
-    public static final int weibo_login=0x7f0803bf;
-    public static final int weibo_setting=0x7f0803c0;
-    public static final int weibo_setting_message=0x7f0803c1;
-    public static final int weixin_co_order_circle=0x7f0803c2;
-    public static final int weixin_co_order_content=0x7f0803c3;
-    public static final int weixin_co_order_foods_list=0x7f0803c4;
-    public static final int weixin_co_order_title=0x7f0803c5;
-    public static final int weixin_co_order_view=0x7f0803c6;
-    public static final int weixin_login=0x7f0803c7;
-    public static final int weixin_order=0x7f0803c8;
-    public static final int weixin_order_welcome_image=0x7f0803c9;
-    public static final int weixin_order_welcome_message=0x7f0803ca;
-    public static final int weixin_order_welcome_title=0x7f0803cb;
-    public static final int weixin_order_welcome_view=0x7f0803cc;
-    public static final int weixin_order_welcome_view_pager=0x7f0803cd;
-    public static final int weixin_setting=0x7f0803ce;
-    public static final int weixin_setting_message=0x7f0803cf;
-    public static final int welcome_container=0x7f0803d0;
-    public static final int welcome_start_order=0x7f0803d1;
-    public static final int welcome_text=0x7f0803d2;
-    public static final int white_triangle=0x7f0803d3;
+    public static final int chat=0x7f080088;
+    public static final int check_new_version_icon=0x7f080089;
+    public static final int checkbox=0x7f08008a;
+    public static final int chronometer=0x7f08008b;
+    public static final int clear_pic_cache=0x7f08008c;
+    public static final int clip_horizontal=0x7f08008d;
+    public static final int clip_vertical=0x7f08008e;
+    public static final int clock_time=0x7f08008f;
+    public static final int clock_time_indicator=0x7f080090;
+    public static final int commend_list=0x7f080091;
+    public static final int commend_time=0x7f080092;
+    public static final int commend_user_name=0x7f080093;
+    public static final int content_container=0x7f080094;
+    public static final int content_loading_layout=0x7f080095;
+    public static final int content_loading_progressbar=0x7f080096;
+    public static final int copyright=0x7f080097;
+    public static final int credits_icon=0x7f080098;
+    public static final int credits_msg=0x7f080099;
+    public static final int credits_title=0x7f08009a;
+    public static final int crop_cancel=0x7f08009b;
+    public static final int crop_ok=0x7f08009c;
+    public static final int current_address=0x7f08009d;
+    public static final int current_zone=0x7f08009e;
+    public static final int date=0x7f08009f;
+    public static final int default_activity_button=0x7f0800a0;
+    public static final int deliver_address_container=0x7f0800a1;
+    public static final int deliver_address_dialog_fragment_container=0x7f0800a2;
+    public static final int deliver_address_fragment_container=0x7f0800a3;
+    public static final int deliver_address_hint=0x7f0800a4;
+    public static final int deliver_address_history_list=0x7f0800a5;
+    public static final int deliver_address_indicator=0x7f0800a6;
+    public static final int deliver_address_locating=0x7f0800a7;
+    public static final int deliver_address_locction_icon=0x7f0800a8;
+    public static final int deliver_address_name=0x7f0800a9;
+    public static final int deliver_address_phone=0x7f0800aa;
+    public static final int deliver_address_phone_bk=0x7f0800ab;
+    public static final int deliver_address_phone_bk_icon=0x7f0800ac;
+    public static final int deliver_address_submit=0x7f0800ad;
+    public static final int deliver_address_view=0x7f0800ae;
+    public static final int description=0x7f0800af;
+    public static final int description_view=0x7f0800b0;
+    public static final int dialog_main_title=0x7f0800b1;
+    public static final int dialog_sub_title=0x7f0800b2;
+    public static final int dianping_head=0x7f0800b3;
+    public static final int drawer_about_content=0x7f0800b4;
+    public static final int drawer_footer=0x7f0800b5;
+    public static final int drawer_gift_content=0x7f0800b6;
+    public static final int drawer_header=0x7f0800b7;
+    public static final int drawer_invitation_content=0x7f0800b8;
+    public static final int drawer_layout=0x7f0800b9;
+    public static final int drawer_main_content=0x7f0800ba;
+    public static final int drawer_menu_fragment=0x7f0800bb;
+    public static final int drawer_order_content=0x7f0800bc;
+    public static final int easy_edit_text=0x7f0800bd;
+    public static final int easy_edit_text_clear=0x7f0800be;
+    public static final int edit_query=0x7f0800bf;
+    public static final int edit_view=0x7f0800c0;
+    public static final int email_setting=0x7f0800c1;
+    public static final int email_setting_message=0x7f0800c2;
+    public static final int end=0x7f0800c3;
+    public static final int end_padder=0x7f0800c4;
+    public static final int entrance_container=0x7f0800c5;
+    public static final int error_notice_button1=0x7f0800c6;
+    public static final int error_notice_button2=0x7f0800c7;
+    public static final int et_login_password=0x7f0800c8;
+    public static final int et_login_username=0x7f0800c9;
+    public static final int et_regist_email=0x7f0800ca;
+    public static final int et_regist_password=0x7f0800cb;
+    public static final int et_regist_password_confirm=0x7f0800cc;
+    public static final int et_regist_username=0x7f0800cd;
+    public static final int exit_confirm_cancel=0x7f0800ce;
+    public static final int exit_confirm_ok=0x7f0800cf;
+    public static final int expand_activities_button=0x7f0800d0;
+    public static final int expanded_menu=0x7f0800d1;
+    public static final int expired_hours=0x7f0800d2;
+    public static final int expired_minutes_seconds=0x7f0800d3;
+    public static final int feedback_et=0x7f0800d4;
+    public static final int feedback_loading=0x7f0800d5;
+    public static final int fill=0x7f0800d6;
+    public static final int fill_horizontal=0x7f0800d7;
+    public static final int fill_space_view=0x7f0800d8;
+    public static final int fill_vertical=0x7f0800d9;
+    public static final int filter_container=0x7f0800da;
+    public static final int flavor_filter_cancel=0x7f0800db;
+    public static final int flavor_filter_ok=0x7f0800dc;
+    public static final int flavor_filter_wheel1=0x7f0800dd;
+    public static final int flavor_filter_wheel2=0x7f0800de;
+    public static final int flavor_tab_clickable_indicator=0x7f0800df;
+    public static final int food_add_to_cart=0x7f0800e0;
+    public static final int food_amount=0x7f0800e1;
+    public static final int food_arrow=0x7f0800e2;
+    public static final int food_camera_guide_text=0x7f0800e3;
+    public static final int food_car=0x7f0800e4;
+    public static final int food_cart_bottom=0x7f0800e5;
+    public static final int food_cart_item=0x7f0800e6;
+    public static final int food_cart_list=0x7f0800e7;
+    public static final int food_cart_note=0x7f0800e8;
+    public static final int food_cart_note_content=0x7f0800e9;
+    public static final int food_cart_operate=0x7f0800ea;
+    public static final int food_cart_order=0x7f0800eb;
+    public static final int food_cart_top=0x7f0800ec;
+    public static final int food_classify_list=0x7f0800ed;
+    public static final int food_comment_list=0x7f0800ee;
+    public static final int food_comment_list_item_msg=0x7f0800ef;
+    public static final int food_comment_list_item_rate=0x7f0800f0;
+    public static final int food_comment_list_item_time=0x7f0800f1;
+    public static final int food_comment_list_item_user_name=0x7f0800f2;
+    public static final int food_container=0x7f0800f3;
+    public static final int food_cost=0x7f0800f4;
+    public static final int food_count=0x7f0800f5;
+    public static final int food_cover_summary_container=0x7f0800f6;
+    public static final int food_detail_description=0x7f0800f7;
+    public static final int food_detail_favor=0x7f0800f8;
+    public static final int food_detail_image=0x7f0800f9;
+    public static final int food_detail_image_text=0x7f0800fa;
+    public static final int food_detail_name=0x7f0800fb;
+    public static final int food_detail_rating_bar=0x7f0800fc;
+    public static final int food_divider=0x7f0800fd;
+    public static final int food_fading_price=0x7f0800fe;
+    public static final int food_filter_list_item_icon=0x7f0800ff;
+    public static final int food_filter_list_item_text=0x7f080100;
+    public static final int food_flying_price=0x7f080101;
+    public static final int food_image=0x7f080102;
+    public static final int food_image_animation=0x7f080103;
+    public static final int food_image_container=0x7f080104;
+    public static final int food_image_mask=0x7f080105;
+    public static final int food_indicator=0x7f080106;
+    public static final int food_infor=0x7f080107;
+    public static final int food_intro=0x7f080108;
+    public static final int food_list=0x7f080109;
+    public static final int food_list_arrow=0x7f08010a;
+    public static final int food_list_container=0x7f08010b;
+    public static final int food_list_fragment_container=0x7f08010c;
+    public static final int food_list_icon_container=0x7f08010d;
+    public static final int food_list_item_add_button_container=0x7f08010e;
+    public static final int food_list_item_add_view=0x7f08010f;
+    public static final int food_list_item_add_view_container=0x7f080110;
+    public static final int food_list_item_description=0x7f080111;
+    public static final int food_list_item_favor=0x7f080112;
+    public static final int food_list_item_minus=0x7f080113;
+    public static final int food_list_item_name=0x7f080114;
+    public static final int food_list_item_name_container=0x7f080115;
+    public static final int food_list_item_price=0x7f080116;
+    public static final int food_list_item_price_text_view=0x7f080117;
+    public static final int food_list_item_promotion_description=0x7f080118;
+    public static final int food_list_item_promotion_icon=0x7f080119;
+    public static final int food_list_item_rate=0x7f08011a;
+    public static final int food_list_item_rate_container=0x7f08011b;
+    public static final int food_list_item_rating=0x7f08011c;
+    public static final int food_list_item_sales=0x7f08011d;
+    public static final int food_list_item_section_description=0x7f08011e;
+    public static final int food_list_item_section_promotion=0x7f08011f;
+    public static final int food_list_item_size=0x7f080120;
+    public static final int food_list_order_cart=0x7f080121;
+    public static final int food_list_order_state=0x7f080122;
+    public static final int food_list_shipping_fee=0x7f080123;
+    public static final int food_list_take_order_button=0x7f080124;
+    public static final int food_list_wrapper=0x7f080125;
+    public static final int food_message=0x7f080126;
+    public static final int food_name=0x7f080127;
+    public static final int food_operation_bar=0x7f080128;
+    public static final int food_operation_container=0x7f080129;
+    public static final int food_price=0x7f08012a;
+    public static final int food_quantity=0x7f08012b;
+    public static final int food_rating=0x7f08012c;
+    public static final int food_rating_bar=0x7f08012d;
+    public static final int food_rating_btn=0x7f08012e;
+    public static final int food_rating_commed=0x7f08012f;
+    public static final int food_rating_comment=0x7f080130;
+    public static final int food_rating_default_image_container=0x7f080131;
+    public static final int food_rating_detail_image_msg=0x7f080132;
+    public static final int food_rating_image_loading=0x7f080133;
+    public static final int food_rating_list=0x7f080134;
+    public static final int food_rating_msg=0x7f080135;
+    public static final int food_rating_prompt=0x7f080136;
+    public static final int food_rating_prompt_text=0x7f080137;
+    public static final int food_rating_starts=0x7f080138;
+    public static final int food_rating_status=0x7f080139;
+    public static final int food_rating_submit=0x7f08013a;
+    public static final int food_rating_text=0x7f08013b;
+    public static final int food_rating_upload_photo=0x7f08013c;
+    public static final int food_score=0x7f08013d;
+    public static final int food_search_list=0x7f08013e;
+    public static final int food_search_no_result=0x7f08013f;
+    public static final int food_size_cancel=0x7f080140;
+    public static final int food_size_ok=0x7f080141;
+    public static final int food_size_title=0x7f080142;
+    public static final int food_size_wheel=0x7f080143;
+    public static final int food_sold_out=0x7f080144;
+    public static final int food_title=0x7f080145;
+    public static final int food_total_price=0x7f080146;
+    public static final int food_total_prices=0x7f080147;
+    public static final int food_ugc_cover=0x7f080148;
+    public static final int food_ugc_cover_view=0x7f080149;
+    public static final int food_ugc_image=0x7f08014a;
+    public static final int food_ugc_image_cerated_at_day=0x7f08014b;
+    public static final int food_ugc_image_cerated_at_des=0x7f08014c;
+    public static final int food_ugc_image_cerated_at_month=0x7f08014d;
+    public static final int food_ugc_image_devider=0x7f08014e;
+    public static final int food_ugc_image_number=0x7f08014f;
+    public static final int food_ugc_image_restaurant_name=0x7f080150;
+    public static final int food_ugc_image_share=0x7f080151;
+    public static final int forever=0x7f080152;
+    public static final int form_address=0x7f080153;
+    public static final int form_name=0x7f080154;
+    public static final int form_note=0x7f080155;
+    public static final int form_phone=0x7f080156;
+    public static final int form_submit=0x7f080157;
+    public static final int fragment_camera_content_fragment=0x7f080158;
+    public static final int fragment_confirm_cart=0x7f080159;
+    public static final int fragment_container=0x7f08015a;
+    public static final int fragment_deliver_address_provider=0x7f08015b;
+    public static final int fragment_deliver_address_provider_container=0x7f08015c;
+    public static final int fragment_deliver_time_container=0x7f08015d;
+    public static final int fragment_invitation=0x7f08015e;
+    public static final int fragment_invoice_container=0x7f08015f;
+    public static final int fragment_payment_verify_phone_sms_code=0x7f080160;
+    public static final int fragment_remarks_container=0x7f080161;
+    public static final int fragment_selection=0x7f080162;
+    public static final int fragment_selection_msg=0x7f080163;
+    public static final int fragment_selection_title=0x7f080164;
+    public static final int from_name=0x7f080165;
+    public static final int gift_content=0x7f080166;
+    public static final int gift_default_image_container=0x7f080167;
+    public static final int gift_description=0x7f080168;
+    public static final int gift_detail_description=0x7f080169;
+    public static final int gift_detail_exchange=0x7f08016a;
+    public static final int gift_detail_image=0x7f08016b;
+    public static final int gift_detail_point=0x7f08016c;
+    public static final int gift_detail_point_container=0x7f08016d;
+    public static final int gift_detail_title=0x7f08016e;
+    public static final int gift_head=0x7f08016f;
+    public static final int gift_list=0x7f080170;
+    public static final int gift_list_fragment=0x7f080171;
+    public static final int gift_list_item_icon=0x7f080172;
+    public static final int gift_name=0x7f080173;
+    public static final int goto_cart=0x7f080174;
+    public static final int goto_exchange_gift=0x7f080175;
+    public static final int goto_order_camera_activity=0x7f080176;
+    public static final int goto_order_detail=0x7f080177;
+    public static final int goto_restaurant_menu=0x7f080178;
+    public static final int gpuimage=0x7f080179;
+    public static final int grid_view_food_ugc_image_cover=0x7f08017a;
+    public static final int guide_viewpager=0x7f08017b;
+    public static final int half_transparent_mask=0x7f08017c;
+    public static final int header=0x7f08017d;
+    public static final int history_address_arrow=0x7f08017e;
+    public static final int history_deliver_address=0x7f08017f;
+    public static final int history_deliver_address_title=0x7f080180;
+    public static final int hitory_address=0x7f080181;
+    public static final int hitory_address_arrow=0x7f080182;
+    public static final int hlistview_top=0x7f080183;
+    public static final int home=0x7f080184;
+    public static final int home_action_bar_address_action=0x7f080185;
+    public static final int home_action_bar_current_address_text_view=0x7f080186;
+    public static final int home_action_bar_custom_view=0x7f080187;
+    public static final int home_action_bar_custom_view_loading=0x7f080188;
+    public static final int home_action_bar_search_icon=0x7f080189;
+    public static final int home_activity_content_container=0x7f08018a;
+    public static final int home_fl_avatar=0x7f08018b;
+    public static final int home_head=0x7f08018c;
+    public static final int home_iv_avatar=0x7f08018d;
+    public static final int home_iv_book_meal_arrow=0x7f08018e;
+    public static final int home_iv_book_meal_icon=0x7f08018f;
+    public static final int home_iv_history_arrow=0x7f080190;
+    public static final int home_iv_history_center_icon=0x7f080191;
+    public static final int home_iv_order_meal_arrow=0x7f080192;
+    public static final int home_iv_order_meal_icon=0x7f080193;
+    public static final int home_ll_book_meal=0x7f080194;
+    public static final int home_ll_history_center=0x7f080195;
+    public static final int home_ll_order_meal=0x7f080196;
+    public static final int home_ll_setting=0x7f080197;
+    public static final int home_menu_camera=0x7f080198;
+    public static final int home_menu_header_avatar=0x7f080199;
+    public static final int home_menu_header_balance=0x7f08019a;
+    public static final int home_menu_header_point=0x7f08019b;
+    public static final int home_menu_header_user_name=0x7f08019c;
+    public static final int home_menu_root_view=0x7f08019d;
+    public static final int home_menu_user_center=0x7f08019e;
+    public static final int home_page_group_restaurants_header=0x7f08019f;
+    public static final int home_page_list_view=0x7f0801a0;
+    public static final int home_pb_loading_point=0x7f0801a1;
+    public static final int home_processing_number=0x7f0801a2;
+    public static final int home_restaurant_flavor_filter_text_view=0x7f0801a3;
+    public static final int home_tv_book_meal=0x7f0801a4;
+    public static final int home_tv_history_center=0x7f0801a5;
+    public static final int home_tv_order_meal=0x7f0801a6;
+    public static final int home_tv_send_immediately=0x7f0801a7;
+    public static final int home_tv_user_name=0x7f0801a8;
+    public static final int home_tv_user_point=0x7f0801a9;
+    public static final int hot_food_list=0x7f0801aa;
+    public static final int hot_food_list_icon_container=0x7f0801ab;
+    public static final int hot_food_list_item_description=0x7f0801ac;
+    public static final int hot_food_list_item_food_container=0x7f0801ad;
+    public static final int hot_food_list_item_food_mask=0x7f0801ae;
+    public static final int hot_food_list_item_food_name=0x7f0801af;
+    public static final int hot_food_list_item_rank=0x7f0801b0;
+    public static final int hot_food_list_item_rank_icon=0x7f0801b1;
+    public static final int hot_food_list_item_restaurant_container=0x7f0801b2;
+    public static final int hot_food_list_item_restaurant_logo=0x7f0801b3;
+    public static final int hot_food_list_item_restaurant_name=0x7f0801b4;
+    public static final int hot_food_list_item_restaurant_status=0x7f0801b5;
+    public static final int hot_food_list_item_sales=0x7f0801b6;
+    public static final int icon=0x7f0801b7;
+    public static final int icon_group=0x7f0801b8;
+    public static final int icon_view=0x7f0801b9;
+    public static final int id_about_firm=0x7f0801ba;
+    public static final int id_about_us=0x7f0801bb;
+    public static final int id_coupon_text=0x7f0801bc;
+    public static final int id_editContactMethod=0x7f0801bd;
+    public static final int id_editProposal=0x7f0801be;
+    public static final int id_invitation=0x7f0801bf;
+    public static final int id_makeProposal=0x7f0801c0;
+    public static final int id_offical_phone=0x7f0801c1;
+    public static final int id_register_invite_help=0x7f0801c2;
+    public static final int id_register_no_net=0x7f0801c3;
+    public static final int id_shareTofriends=0x7f0801c4;
+    public static final int id_submit_coupon=0x7f0801c5;
+    public static final int id_submit_proposal=0x7f0801c6;
+    public static final int id_update=0x7f0801c7;
+    public static final int id_version=0x7f0801c8;
+    public static final int id_welcome=0x7f0801c9;
+    public static final int image=0x7f0801ca;
+    public static final int image_loading=0x7f0801cb;
+    public static final int image_view=0x7f0801cc;
+    public static final int imageview_above_more=0x7f0801cd;
+    public static final int img_capture_button=0x7f0801ce;
+    public static final int img_switch_camera=0x7f0801cf;
+    public static final int indicator=0x7f0801d0;
+    public static final int info=0x7f0801d1;
+    public static final int invitation_head=0x7f0801d2;
+    public static final int invitation_list_item=0x7f0801d3;
+    public static final int invitation_webview=0x7f0801d4;
+    public static final int invite_code=0x7f0801d5;
+    public static final int invite_help=0x7f0801d6;
+    public static final int invoice_add_title=0x7f0801d7;
+    public static final int invoice_infor_container=0x7f0801d8;
+    public static final int invoice_inform_list=0x7f0801d9;
+    public static final int invoice_item_container=0x7f0801da;
+    public static final int invoice_item_indicator=0x7f0801db;
+    public static final int invoice_item_name=0x7f0801dc;
+    public static final int italic=0x7f0801dd;
+    public static final int item_delete=0x7f0801de;
+    public static final int item_name=0x7f0801df;
+    public static final int item_price=0x7f0801e0;
+    public static final int item_size=0x7f0801e1;
+    public static final int item_touch_helper_previous_elevation=0x7f0801e2;
+    public static final int iv_head_left=0x7f0801e3;
+    public static final int iv_home_head=0x7f0801e4;
+    public static final int iv_login=0x7f0801e5;
+    public static final int iv_photo=0x7f0801e6;
+    public static final int iv_regist_email=0x7f0801e7;
+    public static final int iv_regist_password=0x7f0801e8;
+    public static final int iv_regist_password_confirm=0x7f0801e9;
+    public static final int iv_regist_username=0x7f0801ea;
+    public static final int iv_welcome_text_shade=0x7f0801eb;
+    public static final int left=0x7f0801ec;
+    public static final int line1=0x7f0801ed;
+    public static final int line3=0x7f0801ee;
+    public static final int linear_above_toHome=0x7f0801ef;
+    public static final int list_item=0x7f0801f0;
+    public static final int list_restaurant_detail=0x7f0801f1;
+    public static final int list_view=0x7f0801f2;
+    public static final int list_view_food_ugc_image=0x7f0801f3;
+    public static final int ll=0x7f0801f4;
+    public static final int ll_login_panel=0x7f0801f5;
+    public static final int ll_login_panel_edit=0x7f0801f6;
+    public static final int ll_regist_panel_edit=0x7f0801f7;
+    public static final int loading=0x7f0801f8;
+    public static final int loading_arrow=0x7f0801f9;
+    public static final int loading_layout=0x7f0801fa;
+    public static final int loading_msg=0x7f0801fb;
+    public static final int loading_next=0x7f0801fc;
+    public static final int loading_progress=0x7f0801fd;
+    public static final int loading_text=0x7f0801fe;
+    public static final int loading_view=0x7f0801ff;
+    public static final int login_action=0x7f080200;
+    public static final int login_by_other_way=0x7f080201;
+    public static final int login_by_third_party_fragment=0x7f080202;
+    public static final int login_dialog=0x7f080203;
+    public static final int login_field=0x7f080204;
+    public static final int login_loading=0x7f080205;
+    public static final int login_name=0x7f080206;
+    public static final int login_password=0x7f080207;
+    public static final int login_registe_button=0x7f080208;
+    public static final int login_submit=0x7f080209;
+    public static final int logout=0x7f08020a;
+    public static final int main_content=0x7f08020b;
+    public static final int main_content_title_fragment_container=0x7f08020c;
+    public static final int make_order=0x7f08020d;
+    public static final int make_order_fragment=0x7f08020e;
+    public static final int media_actions=0x7f08020f;
+    public static final int menu_container=0x7f080210;
+    public static final int menu_icon=0x7f080211;
+    public static final int menu_layout=0x7f080212;
+    public static final int menu_message=0x7f080213;
+    public static final int menu_title=0x7f080214;
+    public static final int message_view=0x7f080215;
+    public static final int mineList=0x7f080216;
+    public static final int minus_button_view=0x7f080217;
+    public static final int mobile_number=0x7f080218;
+    public static final int mobile_send_voice_code=0x7f080219;
+    public static final int mobile_sending_voice_code=0x7f08021a;
+    public static final int mobile_setting=0x7f08021b;
+    public static final int mobile_setting_message=0x7f08021c;
+    public static final int mobile_validation_code=0x7f08021d;
+    public static final int mobile_validation_send_code=0x7f08021e;
+    public static final int modify_user_name=0x7f08021f;
+    public static final int more=0x7f080220;
+    public static final int msg=0x7f080221;
+    public static final int name=0x7f080222;
+    public static final int navigation_bar=0x7f080223;
+    public static final int navigation_bar_left_button_wrapper=0x7f080224;
+    public static final int navigation_bar_right_button_wrapper=0x7f080225;
+    public static final int navigation_bar_title_wrapper=0x7f080226;
+    public static final int navigation_btn_goback=0x7f080227;
+    public static final int navigation_btn_right=0x7f080228;
+    public static final int navigation_title=0x7f080229;
+    public static final int new_password=0x7f08022a;
+    public static final int new_password_again=0x7f08022b;
+    public static final int new_version_icon=0x7f08022c;
+    public static final int no_camera_food_item=0x7f08022d;
+    public static final int no_food=0x7f08022e;
+    public static final int no_restaurant=0x7f08022f;
+    public static final int none=0x7f080230;
+    public static final int normal=0x7f080231;
+    public static final int not_use_red_envelope_button=0x7f080232;
+    public static final int notification_background=0x7f080233;
+    public static final int notification_icon=0x7f080234;
+    public static final int notification_main_column=0x7f080235;
+    public static final int notification_main_column_container=0x7f080236;
+    public static final int notification_mesg=0x7f080237;
+    public static final int notification_num=0x7f080238;
+    public static final int notification_setting=0x7f080239;
+    public static final int notification_switch=0x7f08023a;
+    public static final int old_password=0x7f08023b;
+    public static final int online_paymethod_amount=0x7f08023c;
+    public static final int online_paymethod_checkbox=0x7f08023d;
+    public static final int online_paymethod_container=0x7f08023e;
+    public static final int online_paymethod_content=0x7f08023f;
+    public static final int online_paymethod_icon=0x7f080240;
+    public static final int online_paymethod_msg=0x7f080241;
+    public static final int online_paymethod_name=0x7f080242;
+    public static final int operation_bar=0x7f080243;
+    public static final int operation_bar_add=0x7f080244;
+    public static final int operation_bar_delete=0x7f080245;
+    public static final int operation_bar_favor=0x7f080246;
+    public static final int operation_bar_minus=0x7f080247;
+    public static final int operation_bar_num=0x7f080248;
+    public static final int order_address=0x7f080249;
+    public static final int order_address_btn=0x7f08024a;
+    public static final int order_address_item=0x7f08024b;
+    public static final int order_address_text=0x7f08024c;
+    public static final int order_confirmed_but_undeliver=0x7f08024d;
+    public static final int order_coupon=0x7f08024e;
+    public static final int order_detail_activity_content_container=0x7f08024f;
+    public static final int order_detail_btton_1=0x7f080250;
+    public static final int order_detail_btton_2=0x7f080251;
+    public static final int order_detail_button_container=0x7f080252;
+    public static final int order_detail_content=0x7f080253;
+    public static final int order_detail_food_amount=0x7f080254;
+    public static final int order_detail_food_count=0x7f080255;
+    public static final int order_detail_food_list=0x7f080256;
+    public static final int order_detail_food_list_item_name=0x7f080257;
+    public static final int order_detail_food_list_item_price=0x7f080258;
+    public static final int order_detail_food_list_item_size=0x7f080259;
+    public static final int order_detail_food_name=0x7f08025a;
+    public static final int order_detail_food_price=0x7f08025b;
+    public static final int order_detail_food_size=0x7f08025c;
+    public static final int order_detail_food_total=0x7f08025d;
+    public static final int order_detail_fragment_container=0x7f08025e;
+    public static final int order_detail_header_fragment_container=0x7f08025f;
+    public static final int order_detail_header_fragment_devider=0x7f080260;
+    public static final int order_detail_information_item_name=0x7f080261;
+    public static final int order_detail_information_list=0x7f080262;
+    public static final int order_detail_list=0x7f080263;
+    public static final int order_detail_msg=0x7f080264;
+    public static final int order_detail_note=0x7f080265;
+    public static final int order_detail_order_cost=0x7f080266;
+    public static final int order_detail_remarks_content=0x7f080267;
+    public static final int order_detail_restaurant=0x7f080268;
+    public static final int order_detail_restaurant_logo=0x7f080269;
+    public static final int order_detail_restaurant_name=0x7f08026a;
+    public static final int order_detail_state_msg=0x7f08026b;
+    public static final int order_detail_state_title=0x7f08026c;
+    public static final int order_detail_status=0x7f08026d;
+    public static final int order_divider1=0x7f08026e;
+    public static final int order_error_content=0x7f08026f;
+    public static final int order_error_no_history_order=0x7f080270;
+    public static final int order_head=0x7f080271;
+    public static final int order_history_address=0x7f080272;
+    public static final int order_history_address_list=0x7f080273;
+    public static final int order_history_list=0x7f080274;
+    public static final int order_history_list_item_msg=0x7f080275;
+    public static final int order_history_list_item_restaurant_logo=0x7f080276;
+    public static final int order_history_list_item_restaurant_name=0x7f080277;
+    public static final int order_history_list_item_state=0x7f080278;
+    public static final int order_id=0x7f080279;
+    public static final int order_infor=0x7f08027a;
+    public static final int order_item_comments=0x7f08027b;
+    public static final int order_item_list_view=0x7f08027c;
+    public static final int order_item_msg=0x7f08027d;
+    public static final int order_item_number=0x7f08027e;
+    public static final int order_item_restaurant_icon=0x7f08027f;
+    public static final int order_item_restaurant_icon_wrapper=0x7f080280;
+    public static final int order_item_restaurant_name=0x7f080281;
+    public static final int order_item_status_bg=0x7f080282;
+    public static final int order_item_stauts=0x7f080283;
+    public static final int order_item_time=0x7f080284;
+    public static final int order_list=0x7f080285;
+    public static final int order_locked=0x7f080286;
+    public static final int order_pay_note=0x7f080287;
+    public static final int order_phone=0x7f080288;
+    public static final int order_phone_bk=0x7f080289;
+    public static final int order_rating_food_list_item_image=0x7f08028a;
+    public static final int order_rating_food_list_item_name=0x7f08028b;
+    public static final int order_rating_food_list_item_rating_indicator=0x7f08028c;
+    public static final int order_remarks_msg=0x7f08028d;
+    public static final int order_remarks_submit=0x7f08028e;
+    public static final int order_use_coupon_arrow=0x7f08028f;
+    public static final int order_use_coupon_textview=0x7f080290;
+    public static final int order_use_coupon_value=0x7f080291;
+    public static final int ordering_members=0x7f080292;
+    public static final int origin_price=0x7f080293;
+    public static final int pager_indicator=0x7f080294;
+    public static final int participate_in_activities_but_not_offer=0x7f080295;
+    public static final int password=0x7f080296;
+    public static final int password_setting=0x7f080297;
+    public static final int password_setting_message=0x7f080298;
+    public static final int pay=0x7f080299;
+    public static final int pay_ali=0x7f08029a;
+    public static final int pay_by_balance=0x7f08029b;
+    public static final int pay_online_balance=0x7f08029c;
+    public static final int pay_online_balance_amount=0x7f08029d;
+    public static final int pay_online_by_balance=0x7f08029e;
+    public static final int pay_online_password=0x7f08029f;
+    public static final int pay_online_user_red_envelope=0x7f0802a0;
+    public static final int pay_online_user_red_envelope_title=0x7f0802a1;
+    public static final int pay_verify=0x7f0802a2;
+    public static final int payment_phone_verification_code_edit_text=0x7f0802a3;
+    public static final int payment_quata_setting=0x7f0802a4;
+    public static final int payment_quata_setting_message=0x7f0802a5;
+    public static final int payment_total_amount=0x7f0802a6;
+    public static final int payment_type_fragment_container=0x7f0802a7;
+    public static final int payment_type_limit=0x7f0802a8;
+    public static final int payment_type_limit_send=0x7f0802a9;
+    public static final int payment_verify_login_password_container=0x7f0802aa;
+    public static final int paymethod_checkbox=0x7f0802ab;
+    public static final int paymethod_container=0x7f0802ac;
+    public static final int paymethod_content=0x7f0802ad;
+    public static final int paymethod_msg=0x7f0802ae;
+    public static final int paymethod_name=0x7f0802af;
+    public static final int paymethod_promotions=0x7f0802b0;
+    public static final int pb_regist_username_check_loading=0x7f0802b1;
+    public static final int phone_action=0x7f0802b2;
+    public static final int photo_del=0x7f0802b3;
+    public static final int photo_ok=0x7f0802b4;
+    public static final int photo_optimize=0x7f0802b5;
+    public static final int photo_optimzing_view=0x7f0802b6;
+    public static final int pic=0x7f0802b7;
+    public static final int pic_quality_without_wifi=0x7f0802b8;
+    public static final int popup_background_left=0x7f0802b9;
+    public static final int popup_background_right=0x7f0802ba;
+    public static final int popup_background_text=0x7f0802bb;
+    public static final int processing_camera_num=0x7f0802bc;
+    public static final int progress_circular=0x7f0802bd;
+    public static final int progress_horizontal=0x7f0802be;
+    public static final int promotion_description=0x7f0802bf;
+    public static final int promotion_empty=0x7f0802c0;
+    public static final int promotion_icon=0x7f0802c1;
+    public static final int promotion_icon_indicator=0x7f0802c2;
+    public static final int promotion_icon_iv=0x7f0802c3;
+    public static final int promotion_loading=0x7f0802c4;
+    public static final int promotion_msg=0x7f0802c5;
+    public static final int promotion_pop_window_list=0x7f0802c6;
+    public static final int promotion_tab_clickable_indicator=0x7f0802c7;
+    public static final int promotion_text=0x7f0802c8;
+    public static final int promotion_title=0x7f0802c9;
+    public static final int pull_container=0x7f0802ca;
+    public static final int pull_note=0x7f0802cb;
+    public static final int pull_refresh_layout=0x7f0802cc;
+    public static final int pull_refresh_list_view_background_view=0x7f0802cd;
+    public static final int quota_amount=0x7f0802ce;
+    public static final int quota_next=0x7f0802cf;
+    public static final int radio=0x7f0802d0;
+    public static final int rating_text=0x7f0802d1;
+    public static final int rating_time=0x7f0802d2;
+    public static final int red_envelope_amount=0x7f0802d3;
+    public static final int red_envelope_bg=0x7f0802d4;
+    public static final int red_envelope_msg=0x7f0802d5;
+    public static final int red_envelope_name=0x7f0802d6;
+    public static final int redenvelopes_content=0x7f0802d7;
+    public static final int redenvelopes_list=0x7f0802d8;
+    public static final int refreshable_list_arrow=0x7f0802d9;
+    public static final int refreshable_list_header=0x7f0802da;
+    public static final int refreshable_list_progress=0x7f0802db;
+    public static final int refreshable_list_text=0x7f0802dc;
+    public static final int remark_button_1=0x7f0802dd;
+    public static final int remark_button_2=0x7f0802de;
+    public static final int remark_button_3=0x7f0802df;
+    public static final int remark_button_4=0x7f0802e0;
+    public static final int remark_button_5=0x7f0802e1;
+    public static final int remark_button_6=0x7f0802e2;
+    public static final int remark_scollView=0x7f0802e3;
+    public static final int remarks=0x7f0802e4;
+    public static final int remarks_content=0x7f0802e5;
+    public static final int remarks_editText=0x7f0802e6;
+    public static final int remarks_scrollView=0x7f0802e7;
+    public static final int renren_login=0x7f0802e8;
+    public static final int renren_setting=0x7f0802e9;
+    public static final int renren_setting_message=0x7f0802ea;
+    public static final int report_other=0x7f0802eb;
+    public static final int report_other_message=0x7f0802ec;
+    public static final int report_restaurant=0x7f0802ed;
+    public static final int reported_view=0x7f0802ee;
+    public static final int restauant_detail_rating_bar_container=0x7f0802ef;
+    public static final int restaurant_address=0x7f0802f0;
+    public static final int restaurant_book_only=0x7f0802f1;
+    public static final int restaurant_bottom=0x7f0802f2;
+    public static final int restaurant_content_container=0x7f0802f3;
+    public static final int restaurant_detail_business_hours=0x7f0802f4;
+    public static final int restaurant_detail_favor=0x7f0802f5;
+    public static final int restaurant_detail_header=0x7f0802f6;
+    public static final int restaurant_detail_header_msg_data=0x7f0802f7;
+    public static final int restaurant_detail_header_msg_title=0x7f0802f8;
+    public static final int restaurant_detail_icons_container=0x7f0802f9;
+    public static final int restaurant_detail_intro=0x7f0802fa;
+    public static final int restaurant_detail_location=0x7f0802fb;
+    public static final int restaurant_detail_logo=0x7f0802fc;
+    public static final int restaurant_detail_msg_divider=0x7f0802fd;
+    public static final int restaurant_detail_name=0x7f0802fe;
+    public static final int restaurant_detail_promotion_info=0x7f0802ff;
+    public static final int restaurant_detail_rate_numbers=0x7f080300;
+    public static final int restaurant_detail_rating_bar=0x7f080301;
+    public static final int restaurant_filter_fragment=0x7f080302;
+    public static final int restaurant_head=0x7f080303;
+    public static final int restaurant_info_coupon=0x7f080304;
+    public static final int restaurant_info_first_section=0x7f080305;
+    public static final int restaurant_info_no_icon=0x7f080306;
+    public static final int restaurant_infor_detail=0x7f080307;
+    public static final int restaurant_infor_frame=0x7f080308;
+    public static final int restaurant_infor_icon=0x7f080309;
+    public static final int restaurant_infor_icons=0x7f08030a;
+    public static final int restaurant_infor_name=0x7f08030b;
+    public static final int restaurant_infor_notice=0x7f08030c;
+    public static final int restaurant_infor_rating=0x7f08030d;
+    public static final int restaurant_infor_score=0x7f08030e;
+    public static final int restaurant_list=0x7f08030f;
+    public static final int restaurant_list_arrow=0x7f080310;
+    public static final int restaurant_list_item_arrow=0x7f080311;
+    public static final int restaurant_list_item_avaiable=0x7f080312;
+    public static final int restaurant_list_item_buynums=0x7f080313;
+    public static final int restaurant_list_item_coupon=0x7f080314;
+    public static final int restaurant_list_item_favor=0x7f080315;
+    public static final int restaurant_list_item_first_promotion=0x7f080316;
+    public static final int restaurant_list_item_first_promotion_icon=0x7f080317;
+    public static final int restaurant_list_item_icon=0x7f080318;
+    public static final int restaurant_list_item_limit=0x7f080319;
+    public static final int restaurant_list_item_logo=0x7f08031a;
+    public static final int restaurant_list_item_mask=0x7f08031b;
+    public static final int restaurant_list_item_more_promotion=0x7f08031c;
+    public static final int restaurant_list_item_more_promotion_container=0x7f08031d;
+    public static final int restaurant_list_item_msg=0x7f08031e;
+    public static final int restaurant_list_item_name=0x7f08031f;
+    public static final int restaurant_list_item_present_promotion_container=0x7f080320;
+    public static final int restaurant_list_item_promotion_container=0x7f080321;
+    public static final int restaurant_list_item_rate=0x7f080322;
+    public static final int restaurant_list_item_rate_numbers=0x7f080323;
+    public static final int restaurant_list_item_rating=0x7f080324;
+    public static final int restaurant_list_item_send_speed=0x7f080325;
+    public static final int restaurant_location=0x7f080326;
+    public static final int restaurant_logo=0x7f080327;
+    public static final int restaurant_name=0x7f080328;
+    public static final int restaurant_phone=0x7f080329;
+    public static final int restaurant_promotion_description=0x7f08032a;
+    public static final int restaurant_promotion_icon=0x7f08032b;
+    public static final int restaurant_promotions=0x7f08032c;
+    public static final int restaurant_promotions_container=0x7f08032d;
+    public static final int restaurant_rest=0x7f08032e;
+    public static final int restaurant_search_list=0x7f08032f;
+    public static final int restaurant_search_list_view=0x7f080330;
+    public static final int restaurant_search_loading=0x7f080331;
+    public static final int restaurant_status_view=0x7f080332;
+    public static final int restaurant_supports=0x7f080333;
+    public static final int restaurant_supports_container=0x7f080334;
+    public static final int restuarant_filter_list_item=0x7f080335;
+    public static final int restuarant_filter_list_item_indicator=0x7f080336;
+    public static final int restuarant_filter_list_item_text=0x7f080337;
+    public static final int resturant_infor_flavor=0x7f080338;
+    public static final int retaurant_search_no_result=0x7f080339;
+    public static final int right=0x7f08033a;
+    public static final int right_icon=0x7f08033b;
+    public static final int right_side=0x7f08033c;
+    public static final int scroll_layout=0x7f08033d;
+    public static final int scroll_view=0x7f08033e;
+    public static final int search_action=0x7f08033f;
+    public static final int search_address_close=0x7f080340;
+    public static final int search_address_confirm=0x7f080341;
+    public static final int search_address_edit_text=0x7f080342;
+    public static final int search_badge=0x7f080343;
+    public static final int search_bar=0x7f080344;
+    public static final int search_button=0x7f080345;
+    public static final int search_cancel=0x7f080346;
+    public static final int search_close_btn=0x7f080347;
+    public static final int search_content=0x7f080348;
+    public static final int search_content_wrapper=0x7f080349;
+    public static final int search_edit_frame=0x7f08034a;
+    public static final int search_go_btn=0x7f08034b;
+    public static final int search_icon=0x7f08034c;
+    public static final int search_item_address=0x7f08034d;
+    public static final int search_item_name=0x7f08034e;
+    public static final int search_mag_icon=0x7f08034f;
+    public static final int search_plate=0x7f080350;
+    public static final int search_src_text=0x7f080351;
+    public static final int search_voice_btn=0x7f080352;
+    public static final int search_voice_icon=0x7f080353;
+    public static final int seekBar=0x7f080354;
+    public static final int selected_indicator=0x7f080355;
+    public static final int send_sms_verification_code=0x7f080356;
+    public static final int send_voice_code=0x7f080357;
+    public static final int send_voice_verification_code=0x7f080358;
+    public static final int sending_voice_code=0x7f080359;
+    public static final int set_pic_quality_without_wifi=0x7f08035a;
+    public static final int share_style=0x7f08035b;
+    public static final int shopping_cart=0x7f08035c;
+    public static final int shopping_cart_state_bar_content_view=0x7f08035d;
+    public static final int shopping_cart_state_bar_fragment=0x7f08035e;
+    public static final int short_name=0x7f08035f;
+    public static final int shortcut=0x7f080360;
+    public static final int shutter=0x7f080361;
+    public static final int slidingpane_content=0x7f080362;
+    public static final int slidingpane_gift=0x7f080363;
+    public static final int slidingpane_menu=0x7f080364;
+    public static final int slidingpanellayout=0x7f080365;
+    public static final int sms_verification_view=0x7f080366;
+    public static final int sns_setting=0x7f080367;
+    public static final int sort_restaurant_text=0x7f080368;
+    public static final int sort_tab_clickable_indicator=0x7f080369;
+    public static final int splash_firm=0x7f08036a;
+    public static final int split_action_bar=0x7f08036b;
+    public static final int square_ayout=0x7f08036c;
+    public static final int start=0x7f08036d;
+    public static final int status_bar_latest_event_content=0x7f08036e;
+    public static final int submit=0x7f08036f;
+    public static final int submit_area=0x7f080370;
+    public static final int submit_report=0x7f080371;
+    public static final int surfaceView=0x7f080372;
+    public static final int swipe_refresh_widget=0x7f080373;
+    public static final int tag_transition_group=0x7f080374;
+    public static final int take_order_activity_content_container=0x7f080375;
+    public static final int take_order_submit=0x7f080376;
+    public static final int text=0x7f080377;
+    public static final int text2=0x7f080378;
+    public static final int third_party_login_dialog=0x7f080379;
+    public static final int third_party_login_title_for_hide=0x7f08037a;
+    public static final int third_party_login_title_for_show=0x7f08037b;
+    public static final int third_party_renren=0x7f08037c;
+    public static final int third_party_sina=0x7f08037d;
+    public static final int time=0x7f08037e;
+    public static final int time_line_action=0x7f08037f;
+    public static final int time_line_confirm=0x7f080380;
+    public static final int time_line_content=0x7f080381;
+    public static final int time_line_content_pager=0x7f080382;
+    public static final int time_line_content_pager_indicator=0x7f080383;
+    public static final int time_line_item_bg_line=0x7f080384;
+    public static final int time_line_item_icon=0x7f080385;
+    public static final int time_line_item_image=0x7f080386;
+    public static final int time_line_item_msg=0x7f080387;
+    public static final int time_line_item_msg2=0x7f080388;
+    public static final int time_line_item_restaurant=0x7f080389;
+    public static final int time_line_item_time=0x7f08038a;
+    public static final int time_line_item_user=0x7f08038b;
+    public static final int time_line_list=0x7f08038c;
+    public static final int time_view=0x7f08038d;
+    public static final int timeline=0x7f08038e;
+    public static final int timeline_list=0x7f08038f;
+    public static final int timeline_loading=0x7f080390;
+    public static final int title=0x7f080391;
+    public static final int top=0x7f080392;
+    public static final int top_action_bar=0x7f080393;
+    public static final int tv_common_above_head=0x7f080394;
+    public static final int tv_food_list_head=0x7f080395;
+    public static final int up=0x7f080396;
+    public static final int update_later=0x7f080397;
+    public static final int update_now=0x7f080398;
+    public static final int upload_avatar_btn_take_picture=0x7f080399;
+    public static final int use_coupon=0x7f08039a;
+    public static final int use_coupon_delete=0x7f08039b;
+    public static final int use_coupon_edit_text=0x7f08039c;
+    public static final int use_coupon_number=0x7f08039d;
+    public static final int use_coupon_submit=0x7f08039e;
+    public static final int use_red_envelope_indicator=0x7f08039f;
+    public static final int use_red_envelopes_fragment=0x7f0803a0;
+    public static final int user_avatar=0x7f0803a1;
+    public static final int user_center_action_more_setting=0x7f0803a2;
+    public static final int user_center_avatar=0x7f0803a3;
+    public static final int user_center_balance=0x7f0803a4;
+    public static final int user_center_bg=0x7f0803a5;
+    public static final int user_center_content_container=0x7f0803a6;
+    public static final int user_center_name=0x7f0803a7;
+    public static final int user_center_point=0x7f0803a8;
+    public static final int user_center_profile_container=0x7f0803a9;
+    public static final int user_center_red_envelopes=0x7f0803aa;
+    public static final int user_center_security_setting=0x7f0803ab;
+    public static final int user_comment_view=0x7f0803ac;
+    public static final int user_logo_container=0x7f0803ad;
+    public static final int user_name=0x7f0803ae;
+    public static final int user_place_loading=0x7f0803af;
+    public static final int user_place_loading_progress=0x7f0803b0;
+    public static final int user_place_loading_text=0x7f0803b1;
+    public static final int username=0x7f0803b2;
+    public static final int v_translucence_background=0x7f0803b3;
+    public static final int verification_code=0x7f0803b4;
+    public static final int version_discription=0x7f0803b5;
+    public static final int version_guide_indicator=0x7f0803b6;
+    public static final int version_guide_pager=0x7f0803b7;
+    public static final int version_name=0x7f0803b8;
+    public static final int version_size=0x7f0803b9;
+    public static final int version_time=0x7f0803ba;
+    public static final int viewPager=0x7f0803bb;
+    public static final int view_restaurant_comment=0x7f0803bc;
+    public static final int volley=0x7f0803bd;
+    public static final int vp=0x7f0803be;
+    public static final int vp_tab_strip=0x7f0803bf;
+    public static final int web=0x7f0803c0;
+    public static final int webview=0x7f0803c1;
+    public static final int webview_common=0x7f0803c2;
+    public static final int webview_progressbar=0x7f0803c3;
+    public static final int weibo_login=0x7f0803c4;
+    public static final int weibo_setting=0x7f0803c5;
+    public static final int weibo_setting_message=0x7f0803c6;
+    public static final int weixin_co_order_circle=0x7f0803c7;
+    public static final int weixin_co_order_content=0x7f0803c8;
+    public static final int weixin_co_order_foods_list=0x7f0803c9;
+    public static final int weixin_co_order_title=0x7f0803ca;
+    public static final int weixin_co_order_view=0x7f0803cb;
+    public static final int weixin_login=0x7f0803cc;
+    public static final int weixin_order=0x7f0803cd;
+    public static final int weixin_order_welcome_image=0x7f0803ce;
+    public static final int weixin_order_welcome_message=0x7f0803cf;
+    public static final int weixin_order_welcome_title=0x7f0803d0;
+    public static final int weixin_order_welcome_view=0x7f0803d1;
+    public static final int weixin_order_welcome_view_pager=0x7f0803d2;
+    public static final int weixin_setting=0x7f0803d3;
+    public static final int weixin_setting_message=0x7f0803d4;
+    public static final int welcome_container=0x7f0803d5;
+    public static final int welcome_start_order=0x7f0803d6;
+    public static final int welcome_text=0x7f0803d7;
+    public static final int white_triangle=0x7f0803d8;
   }
   public static final class integer {
     public static final int cancel_button_image_alpha=0x7f090000;
@@ -1439,42 +1502,43 @@ public final class R {
     public static final int food_list_item_operation=0x7f0a000c;
     public static final int home_head_view=0x7f0a000d;
     public static final int im_test=0x7f0a000e;
-    public static final int login_by_third_party=0x7f0a000f;
-    public static final int login_by_username=0x7f0a0010;
-    public static final int login_main=0x7f0a0011;
-    public static final int notification_action=0x7f0a0012;
-    public static final int notification_action_tombstone=0x7f0a0013;
-    public static final int notification_media_action=0x7f0a0014;
-    public static final int notification_media_cancel_action=0x7f0a0015;
-    public static final int notification_template_big_media=0x7f0a0016;
-    public static final int notification_template_big_media_custom=0x7f0a0017;
-    public static final int notification_template_big_media_narrow=0x7f0a0018;
-    public static final int notification_template_big_media_narrow_custom=0x7f0a0019;
-    public static final int notification_template_custom_big=0x7f0a001a;
-    public static final int notification_template_icon_group=0x7f0a001b;
-    public static final int notification_template_lines_media=0x7f0a001c;
-    public static final int notification_template_media=0x7f0a001d;
-    public static final int notification_template_media_custom=0x7f0a001e;
-    public static final int notification_template_part_chronometer=0x7f0a001f;
-    public static final int notification_template_part_time=0x7f0a0020;
-    public static final int order_time_point_item=0x7f0a0021;
-    public static final int refresh_list_head=0x7f0a0022;
-    public static final int restaurant_detail_main=0x7f0a0023;
-    public static final int restaurant_food_list_header=0x7f0a0024;
-    public static final int restaurant_list_footer=0x7f0a0025;
-    public static final int restaurant_list_header=0x7f0a0026;
-    public static final int restaurant_list_item_dev=0x7f0a0027;
-    public static final int restaurant_promotion_with_icon_text_view=0x7f0a0028;
-    public static final int slidingpane_abouts_layout=0x7f0a0029;
-    public static final int slidingpane_camera_layout=0x7f0a002a;
-    public static final int slidingpane_gifts_layout=0x7f0a002b;
-    public static final int slidingpane_home_layout=0x7f0a002c;
-    public static final int slidingpane_invitation_layout=0x7f0a002d;
-    public static final int slidingpane_main_layout=0x7f0a002e;
-    public static final int slidingpane_menu_layout=0x7f0a002f;
-    public static final int slidingpane_order_layout=0x7f0a0030;
-    public static final int timeline_fragment=0x7f0a0031;
-    public static final int welcome=0x7f0a0032;
+    public static final int im_test_listview=0x7f0a000f;
+    public static final int login_by_third_party=0x7f0a0010;
+    public static final int login_by_username=0x7f0a0011;
+    public static final int login_main=0x7f0a0012;
+    public static final int notification_action=0x7f0a0013;
+    public static final int notification_action_tombstone=0x7f0a0014;
+    public static final int notification_media_action=0x7f0a0015;
+    public static final int notification_media_cancel_action=0x7f0a0016;
+    public static final int notification_template_big_media=0x7f0a0017;
+    public static final int notification_template_big_media_custom=0x7f0a0018;
+    public static final int notification_template_big_media_narrow=0x7f0a0019;
+    public static final int notification_template_big_media_narrow_custom=0x7f0a001a;
+    public static final int notification_template_custom_big=0x7f0a001b;
+    public static final int notification_template_icon_group=0x7f0a001c;
+    public static final int notification_template_lines_media=0x7f0a001d;
+    public static final int notification_template_media=0x7f0a001e;
+    public static final int notification_template_media_custom=0x7f0a001f;
+    public static final int notification_template_part_chronometer=0x7f0a0020;
+    public static final int notification_template_part_time=0x7f0a0021;
+    public static final int order_time_point_item=0x7f0a0022;
+    public static final int refresh_list_head=0x7f0a0023;
+    public static final int restaurant_detail_main=0x7f0a0024;
+    public static final int restaurant_food_list_header=0x7f0a0025;
+    public static final int restaurant_list_footer=0x7f0a0026;
+    public static final int restaurant_list_header=0x7f0a0027;
+    public static final int restaurant_list_item_dev=0x7f0a0028;
+    public static final int restaurant_promotion_with_icon_text_view=0x7f0a0029;
+    public static final int slidingpane_abouts_layout=0x7f0a002a;
+    public static final int slidingpane_camera_layout=0x7f0a002b;
+    public static final int slidingpane_gifts_layout=0x7f0a002c;
+    public static final int slidingpane_home_layout=0x7f0a002d;
+    public static final int slidingpane_invitation_layout=0x7f0a002e;
+    public static final int slidingpane_main_layout=0x7f0a002f;
+    public static final int slidingpane_menu_layout=0x7f0a0030;
+    public static final int slidingpane_order_layout=0x7f0a0031;
+    public static final int timeline_fragment=0x7f0a0032;
+    public static final int welcome=0x7f0a0033;
   }
   public static final class menu {
     public static final int main=0x7f0b0000;
@@ -1524,7 +1588,7 @@ public final class R {
      * @see #CoordinatorLayout_statusBarBackground
      */
     public static final int[] CoordinatorLayout={
-        0x7f03000c, 0x7f030013
+        0x7f030011, 0x7f03001c
       };
     /**
      * <p>This symbol is the offset where the {@link com.example.ele_me.R.attr#keylines}
@@ -1577,8 +1641,8 @@ public final class R {
      * @see #CoordinatorLayout_Layout_layout_keyline
      */
     public static final int[] CoordinatorLayout_Layout={
-        0x010100b3, 0x7f03000d, 0x7f03000e, 0x7f03000f, 
-        0x7f030010, 0x7f030011, 0x7f030012
+        0x010100b3, 0x7f030013, 0x7f030014, 0x7f030015, 
+        0x7f030016, 0x7f030017, 0x7f030018
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
@@ -1736,8 +1800,8 @@ public final class R {
      * @see #FontFamily_fontProviderQuery
      */
     public static final int[] FontFamily={
-        0x7f030002, 0x7f030003, 0x7f030004, 0x7f030005, 
-        0x7f030006, 0x7f030007
+        0x7f030007, 0x7f030008, 0x7f030009, 0x7f03000a, 
+        0x7f03000b, 0x7f03000c
       };
     /**
      * <p>This symbol is the offset where the {@link com.example.ele_me.R.attr#fontProviderAuthority}
@@ -1837,8 +1901,8 @@ public final class R {
      * @see #FontFamilyFont_fontWeight
      */
     public static final int[] FontFamilyFont={
-        0x01010532, 0x01010533, 0x0101053f, 0x7f030001, 
-        0x7f030008, 0x7f030009
+        0x01010532, 0x01010533, 0x0101053f, 0x7f030006, 
+        0x7f03000d, 0x7f03000e
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#font}
@@ -1917,6 +1981,174 @@ public final class R {
      */
     public static final int FontFamilyFont_fontWeight=5;
     /**
+     * Attributes that can be used with a RecyclerView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.example.ele_me:fastScrollEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.example.ele_me:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.example.ele_me:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.example.ele_me:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.example.ele_me:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager com.example.ele_me:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout com.example.ele_me:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount com.example.ele_me:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.example.ele_me:stackFromEnd}</code></td><td></td></tr>
+     * </table>
+     * @see #RecyclerView_android_orientation
+     * @see #RecyclerView_android_descendantFocusability
+     * @see #RecyclerView_fastScrollEnabled
+     * @see #RecyclerView_fastScrollHorizontalThumbDrawable
+     * @see #RecyclerView_fastScrollHorizontalTrackDrawable
+     * @see #RecyclerView_fastScrollVerticalThumbDrawable
+     * @see #RecyclerView_fastScrollVerticalTrackDrawable
+     * @see #RecyclerView_layoutManager
+     * @see #RecyclerView_reverseLayout
+     * @see #RecyclerView_spanCount
+     * @see #RecyclerView_stackFromEnd
+     */
+    public static final int[] RecyclerView={
+        0x010100c4, 0x010100f1, 0x7f030001, 0x7f030002, 
+        0x7f030003, 0x7f030004, 0x7f030005, 0x7f030012, 
+        0x7f030019, 0x7f03001a, 0x7f03001b
+      };
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#orientation}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>horizontal</td><td>0</td><td></td></tr>
+     * <tr><td>vertical</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:orientation
+     */
+    public static final int RecyclerView_android_orientation=0;
+    /**
+     * <p>This symbol is the offset where the {@link android.R.attr#descendantFocusability}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>afterDescendants</td><td>1</td><td></td></tr>
+     * <tr><td>beforeDescendants</td><td>0</td><td></td></tr>
+     * <tr><td>blocksDescendants</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name android:descendantFocusability
+     */
+    public static final int RecyclerView_android_descendantFocusability=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.ele_me.R.attr#fastScrollEnabled}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.ele_me:fastScrollEnabled
+     */
+    public static final int RecyclerView_fastScrollEnabled=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.ele_me.R.attr#fastScrollHorizontalThumbDrawable}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.example.ele_me:fastScrollHorizontalThumbDrawable
+     */
+    public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.ele_me.R.attr#fastScrollHorizontalTrackDrawable}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.example.ele_me:fastScrollHorizontalTrackDrawable
+     */
+    public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.ele_me.R.attr#fastScrollVerticalThumbDrawable}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.example.ele_me:fastScrollVerticalThumbDrawable
+     */
+    public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.ele_me.R.attr#fastScrollVerticalTrackDrawable}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.example.ele_me:fastScrollVerticalTrackDrawable
+     */
+    public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.ele_me.R.attr#layoutManager}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.example.ele_me:layoutManager
+     */
+    public static final int RecyclerView_layoutManager=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.ele_me.R.attr#reverseLayout}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.ele_me:reverseLayout
+     */
+    public static final int RecyclerView_reverseLayout=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.ele_me.R.attr#spanCount}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.example.ele_me:spanCount
+     */
+    public static final int RecyclerView_spanCount=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.example.ele_me.R.attr#stackFromEnd}
+     * attribute's value can be found in the {@link #RecyclerView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.example.ele_me:stackFromEnd
+     */
+    public static final int RecyclerView_stackFromEnd=10;
+    /**
      * Attributes that can be used with a StickyListHeadersListView.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -1977,7 +2209,7 @@ public final class R {
         0x010100eb, 0x010100fb, 0x010100fc, 0x010100fe, 
         0x01010100, 0x01010101, 0x01010129, 0x0101012a, 
         0x0101012b, 0x01010226, 0x010102c1, 0x01010335, 
-        0x010103a5, 0x7f03000a, 0x7f03000b
+        0x010103a5, 0x7f03000f, 0x7f030010
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#scrollbarStyle}

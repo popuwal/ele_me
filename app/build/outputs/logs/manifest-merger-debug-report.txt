@@ -6,10 +6,11 @@ INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\Androi
 INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-46:12
 MERGED from [com.android.support:support-v13:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\e42c0a5e21561a1f63e4c07f597d1275\AndroidManifest.xml:17:1-22:12
 MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\gpuimage-library-1.4.1.aar\e96017bce7a10162fe789d66e4240005\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\a7fe8a90194d1eeb5745166ef74b225a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c85de78adab2eac6bc3472bb7093b31d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\68f37ccced5d522ebcf507edc8b55299\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5c642c3df8e3a6c6cb64be5da3bcacc2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\491d44ba0ea82e45b3a5f02db2f863f1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\68f37ccced5d522ebcf507edc8b55299\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f4b04cc97001fedb6d3d9556e5a5c8d4\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4117f672b770c2da92ad83e10a247c1c\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a7497cfcc1c29aae6576581788d87b00\AndroidManifest.xml:17:1-22:12
@@ -139,14 +140,16 @@ MERGED from [com.android.support:support-v13:27.1.1] C:\Users\H0136899\.gradle\c
 MERGED from [com.android.support:support-v13:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\e42c0a5e21561a1f63e4c07f597d1275\AndroidManifest.xml:20:5-44
 MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\gpuimage-library-1.4.1.aar\e96017bce7a10162fe789d66e4240005\AndroidManifest.xml:8:5-10:41
 MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\gpuimage-library-1.4.1.aar\e96017bce7a10162fe789d66e4240005\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\a7fe8a90194d1eeb5745166ef74b225a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\a7fe8a90194d1eeb5745166ef74b225a\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c85de78adab2eac6bc3472bb7093b31d\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\c85de78adab2eac6bc3472bb7093b31d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\68f37ccced5d522ebcf507edc8b55299\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\68f37ccced5d522ebcf507edc8b55299\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5c642c3df8e3a6c6cb64be5da3bcacc2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5c642c3df8e3a6c6cb64be5da3bcacc2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\491d44ba0ea82e45b3a5f02db2f863f1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\491d44ba0ea82e45b3a5f02db2f863f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\68f37ccced5d522ebcf507edc8b55299\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\68f37ccced5d522ebcf507edc8b55299\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f4b04cc97001fedb6d3d9556e5a5c8d4\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f4b04cc97001fedb6d3d9556e5a5c8d4\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4117f672b770c2da92ad83e10a247c1c\AndroidManifest.xml:20:5-44

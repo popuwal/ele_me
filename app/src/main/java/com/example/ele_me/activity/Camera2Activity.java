@@ -78,14 +78,14 @@ static {
         setContentView(R.layout.activity2_camera);
 
         // preview view
-        textureView = (TextureView) findViewById(R.id.surfaceView);
+        textureView = findViewById(R.id.surfaceView);
         textureView.setSurfaceTextureListener(this);
         //textureView.setAlpha(0.8f);
 
         // switch view
-        imageView = (ImageView)findViewById(R.id.img_switch_camera);
+        imageView = findViewById(R.id.img_switch_camera);
         imageView.setOnClickListener(this);
-        captureView = (ImageView) findViewById(R.id.img_capture_button);
+        captureView = findViewById(R.id.img_capture_button);
         captureView.setOnClickListener(this);
 
         cameraManager = (CameraManager) getSystemService(CAMERA_SERVICE);

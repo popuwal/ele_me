@@ -116,7 +116,7 @@ public class HomeFragment extends Fragment implements OnClickListener {
                 Log.e(TAG, "onLocationChanged onProviderDisabled");
             }
         };
-        textView = (TextView) currentView.findViewById(R.id.tv_common_above_head);
+        textView = currentView.findViewById(R.id.tv_common_above_head);
         textView.setMovementMethod(ScrollingMovementMethod.getInstance());
         getLocation();
         /**/
