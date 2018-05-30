@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-47:12
 MERGED from [com.android.support:support-v13:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\e42c0a5e21561a1f63e4c07f597d1275\AndroidManifest.xml:17:1-22:12
 MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\gpuimage-library-1.4.1.aar\e96017bce7a10162fe789d66e4240005\AndroidManifest.xml:2:1-12:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\a7fe8a90194d1eeb5745166ef74b225a\AndroidManifest.xml:17:1-22:12
@@ -17,9 +17,9 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\H0136899\.gradle\cac
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\75cca66ec22b7f29feea964113b19db2\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\a2a1bd9a6b8f13a26967878ad7a46170\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\H0136899\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5b756f445674c6a280bcca03a515cffb\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-46:12
-INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:2:1-47:12
 	package
 		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml
@@ -67,7 +67,7 @@ ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidMa
 	android:name
 		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:15:22-76
 application
-ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:18:5-44:19
+ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:18:5-45:19
 	android:label
 		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:22:9-41
 	android:icon
@@ -132,6 +132,10 @@ activity#com.example.ele_me.activity.GalleryActivity
 ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:43:9-89
 	android:name
 		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:43:19-77
+activity#com.example.ele_me.activity.DetailedChatActivity
+ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:44:9-84
+	android:name
+		ADDED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml:44:19-82
 uses-sdk
 INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\H0136899\AndroidStudioProjects\ele_me\app\src\main\AndroidManifest.xml

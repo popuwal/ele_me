@@ -7,6 +7,8 @@ import com.example.ele_me.util.Constants;
 
 
 public class BaseApplication extends Application {
+    public static String TAG = "POPUWAL";
+    public static boolean DEBUG = true;
     private static BaseApplication instance;
     private String jumpType = "";
 

@@ -19,12 +19,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import com.example.BaseApplication;
 import com.example.ele_me.R;
 import com.example.ele_me.entity.TestVolleyJson;
 
 public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.ViewHolder> {
     private List<TestVolleyJson.Data> mList;
     private Context mContext;
+
+    @SuppressWarnings("unchecked")
     public ChatAdapter(List<TestVolleyJson.Data> list, Context context){
         this.mList = list;
         this.mContext = context;
@@ -67,7 +70,7 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.ViewHolder> {
             protected void onPostExecute(Object o) {
                 super.onPostExecute(o);
                 if (imgUri.equals(holder.imageView.getTag())) {
-                    Log.e("POPUWAL", "onPostExecute"+(Bitmap)o);
+                    if (BaseApplication.DEBUG)Log.e(BaseApplication.TAG, "onPostExecute"+(Bitmap)o);
                     holder.imageView.setImageBitmap((Bitmap)o);
                 }
             }
@@ -81,6 +84,7 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.ViewHolder> {
     public int getItemCount() {
         return mList.size();
     }
+
     public static class ViewHolder extends RecyclerView.ViewHolder{
         ImageView imageView;
         TextView fromName;

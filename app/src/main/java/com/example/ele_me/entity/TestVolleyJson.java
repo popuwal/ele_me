@@ -33,7 +33,7 @@ public class TestVolleyJson implements Serializable {
     public links links;
     public meta meta;
 
-    public  class Data {
+    public  class Data implements Serializable{
 
         public int getId() {
             return id;

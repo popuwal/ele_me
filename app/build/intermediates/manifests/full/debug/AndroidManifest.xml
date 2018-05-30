@@ -47,6 +47,7 @@
             android:name="com.example.ele_me.activity.IMTest"
             android:hardwareAccelerated="true" />
         <activity android:name="com.example.ele_me.activity.GalleryActivity" />
+        <activity android:name="com.example.ele_me.activity.DetailedChatActivity" />
     </application>
 
 </manifest>

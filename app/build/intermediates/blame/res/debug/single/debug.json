@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\H0136899\\AndroidStudioProjects\\ele_me\\app\\build\\intermediates\\res\\merged\\debug\\drawable_biankuang.xml.flat",
+        "source": "C:\\Users\\H0136899\\AndroidStudioProjects\\ele_me\\app\\src\\main\\res\\drawable\\biankuang.xml"
+    },
+    {
         "merged": "C:\\Users\\H0136899\\AndroidStudioProjects\\ele_me\\app\\build\\intermediates\\res\\merged\\debug\\layout_slidingpane_gifts_layout.xml.flat",
         "source": "C:\\Users\\H0136899\\AndroidStudioProjects\\ele_me\\app\\src\\main\\res\\layout\\slidingpane_gifts_layout.xml"
     },
